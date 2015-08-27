@@ -20,7 +20,8 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "build": "metalsmith"
+    "build": "metalsmith",
+    "dev": "node serve.js"
   },
   "private": false,
   "devDependencies": {
