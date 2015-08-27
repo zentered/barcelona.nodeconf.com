@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "title": "NodeConf Barcelona 2015",
+    "description": "An international, one-day, not-for-profit, community-driven conference about Node.js"
+  },
+  "plugins": {
+    "metalsmith-markdown": {},
+    "metalsmith-permalinks": {
+      "pattern": ":title"
+    },
+    "metalsmith-templates": {
+      "engine": "handlebars"
+    },
+    "metalsmith-assets": {
+      "source": "./assets",
+      "destination": "./assets"
+    }
+  }
+}
