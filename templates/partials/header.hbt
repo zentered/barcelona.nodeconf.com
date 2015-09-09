@@ -1,0 +1,14 @@
+<div class="container p3 center">
+    <header role="banner">
+          <a href="/" class="logo nodeconf block mt3 mb4 mx-auto"></a>
+          <p class="mb3">{{intro}}</p>
+    </header>
+  </div>
+  <div class="clearfix">
+    <div class="md-col-12 sm-col py2 px1 bg-olive event-adventure center">
+      <h2>Nodeconf</h2>
+      <p class="mb0">November 21th</p>
+      <p>Barcelona, Spain, Mobile World Capital</p>
+      <a href="https://ti.to/nodeconf/barcelona" class="button bg-black button-big mb2">Tickets on Sale</a>
+    </div>
+  </div>
