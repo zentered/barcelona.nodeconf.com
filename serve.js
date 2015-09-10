@@ -6,6 +6,9 @@ var assets = require('metalsmith-assets');
 var permalinks = require('metalsmith-permalinks');
 var browserSync = require('metalsmith-browser-sync');
 var sass = require('metalsmith-sass');
+var setuphandlebars = require('./setuphandlebars');
+
+setuphandlebars.init();
 
 Metalsmith(__dirname)
   .source('src/')
