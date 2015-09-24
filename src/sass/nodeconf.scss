@@ -130,6 +130,11 @@ p, a, span {
   margin-bottom: 30px;
 }
 
+.content {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
 .footer {
   margin-top: 25px;
   background-color: $gray;
