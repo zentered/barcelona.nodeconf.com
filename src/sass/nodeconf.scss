@@ -111,6 +111,13 @@ p, a, span {
 .btn {
   background-color: $green;
   color: white;
+  border: 0;
+  margin: 25px;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .nodeconf {
