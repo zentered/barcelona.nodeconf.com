@@ -1,0 +1,26 @@
+[
+    {
+        "startup": [
+            {
+                "name": "",
+                "logo": ""
+            }
+        ]
+    },
+    {
+        "synchronous": [
+            {
+                "name": "",
+                "logo": ""
+            }
+        ]
+    },
+    {
+        "asynchronous": [
+            {
+                "name": "",
+                "logo": ""
+            }
+        ]
+    }
+]
