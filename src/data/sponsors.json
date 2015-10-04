@@ -1,0 +1,19 @@
+[
+    {
+        "category": "startup",
+        "companies": []
+    },
+    {
+      "category": "synchronous",
+      "companies": [
+            {
+                "name": "blended.io",
+                "logo": "blended"
+            }
+        ]
+    },
+    {
+      "category": "asynchronous",
+      "companies": []
+    }
+]

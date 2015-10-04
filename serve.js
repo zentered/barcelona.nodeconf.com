@@ -1,22 +1,21 @@
 var Metalsmith = require('metalsmith');
 var markdown = require('metalsmith-markdown');
 var layouts = require('metalsmith-layouts');
-var collections = require('metalsmith-collections');
 var assets = require('metalsmith-assets');
 var permalinks = require('metalsmith-permalinks');
 var browserSync = require('metalsmith-browser-sync');
+var metadata = require('metalsmith-metadata');
 var sass = require('metalsmith-sass');
 
 Metalsmith(__dirname)
   .source('src/')
   .destination('./build')
-  .use(collections({
-    pages: {
-      pattern: 'speakers/*.md'
-    }
-  }))
   .use(permalinks({
     pattern: ':collection/:title'
+  }))
+  .use(metadata({
+    speakers: 'data/speakers.json',
+    sponsors: 'data/sponsors.json'
   }))
   .use(markdown())
   .use(layouts({

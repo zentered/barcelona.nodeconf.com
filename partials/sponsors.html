@@ -1,3 +1,11 @@
 <h2 class="center m3">Sponsors</h2>
+<h2>Sponsors</h2>
 
-<p>We're still looking for more amazing companies willing to support this event. Sponsorship information can be found <a href="/sponsors.html">here</a>. If you are interested in sponsoring, please drop an email to <a href="mailto:patrick@barcelonajs.org?subject=NodeConf Sponsoring">patrick@barcelonajs.org</a> for more details.</p>
+{{#each sponsors}}
+  {{category}}
+  {{#each companies}}
+    <img alt="{{name}}" src="/assets/img/sponsors/{{logo}}.png" class="sponsor-logo" />
+  {{/each}}
+{{/each}}
+
+  <p>We're still looking for more amazing companies willing to support this event. Sponsorship information can be found <a href="/sponsors.html">here</a>. If you are interested in sponsoring, please drop an email to <a href="mailto:patrick@barcelonajs.org?subject=NodeConf Sponsoring">patrick@barcelonajs.org</a>    for more details.</p>
