@@ -3,17 +3,15 @@ var markdown = require('metalsmith-markdown');
 var layouts = require('metalsmith-layouts');
 var collections = require('metalsmith-collections');
 var assets = require('metalsmith-assets');
+var msj = require('metalsmith-json');
 var permalinks = require('metalsmith-permalinks');
 var sass = require('metalsmith-sass');
 
 Metalsmith(__dirname)
   .source('src/')
   .destination('./build')
-  .use(collections({
-    pages: {
-      pattern: 'speakers/*.md'
-    }
-  }))
+  .use(msj('./data/speakers.json'))
+  .use(msj('./data/sponsors.json'))
   .use(permalinks({
     pattern: ':collection/:title'
   }))
