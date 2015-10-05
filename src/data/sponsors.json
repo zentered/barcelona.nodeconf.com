@@ -1,32 +1,26 @@
 [
-    {
-        "category": "startup",
-        "companies": []
-    },
-    {
-        "category": "sponsor",
-        "companies": [
-            {
-                "name": "YLD!",
-                "logo": "yld"
+  {
+    "category": "Synchronous",
+    "companies": [
+      {
+        "name": "blended.io",
+        "logo": "blended",
+        "url": "http://blended.io"
+          }
+      ]
+  }, {
+    "category": "Sponsor",
+    "companies": [
+      {
+        "name": "YLD!",
+        "logo": "yld",
+        "url": "http://yld.io"
             },
-            {
-                "name": "dynatrace",
-                "logo": "dynatrace"
+      {
+        "name": "dynatrace",
+        "logo": "dynatrace",
+        "url": "http://dynatrace.com"
             }
         ]
-    },
-    {
-        "category": "synchronous",
-        "companies": [
-            {
-                "name": "blended.io",
-                "logo": "blended"
-            }
-        ]
-    },
-    {
-        "category": "asynchronous",
-        "companies": []
     }
 ]

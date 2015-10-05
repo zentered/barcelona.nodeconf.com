@@ -1,165 +1,165 @@
 @import 'partials/_vars.scss';
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
-
-html, body {
-    margin:0;
-    font-family: Source Sans Pro;
-    font-size: 1.2em;
-    font-weight: 300;
-    padding:0;
-    overflow-x:hidden;
+html,
+body {
+  margin: 0;
+  font-family: Source Sans Pro;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 0;
+  overflow-x: hidden;
 }
-
 .header {
-  background-color: $dark;
-  color: white;
-  padding:4em;
-  text-align:center;
+  background: $dark url("/assets/img/bg.svg") no-repeat;
+  background-position: center center;
+  background-size: 200%;
+  color: $dark;
+  padding: 0;
+  margin: 0;
+  text-align: center;
   a {
     font-weight: 600;
   }
 }
-
+.conf-title {
+  margin-top: 0;
+}
+.banner {
+  color: $dark;
+  background-color: white;
+  border-bottom: 5px solid white;
+}
 .logo {
-    width:650px;
+  width: 350px;
+  background-color: white;
 }
-
-a.btn {
-    padding: 8px 22px;
-    font-weight: 800;
-    margin-bottom:0.67em;
-    background-color: $green;
-    color:$white;
-    text-decoration: none;
-    border-radius:2px;
-}
-
 a.btn:hover {
-    background-color: #719e12;
+  text-decoration: none;
 }
-
+a.btn {
+  padding: 15px 30px;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 0.67em;
+  background-color: $green;
+  color: $white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+a.btn:hover {
+  background-color: #719e12;
+}
 .venue-location {
-    font-weight: 400;
+  font-weight: 400;
 }
-
 a {
-    color:$green;
-    text-decoration: none;
+  color: $green;
+  text-decoration: none;
 }
-
 .wrap {
-    max-width: 1200px;
-    margin:0 auto;
-    padding:2em;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
 }
-
-.venue-explanation {
-    background-color: $green;
-    color:$white;
+.teaser {
+  background-color: $green;
+  font-size: 14px;
+  color: $white;
+  a {
+    color: $white;
+  }
 }
-
+.introduction {
+  font-size: 18px;
+}
 .venue-features {
-    font-size:0.8em;
-    padding-left:2em;
-    color:$green;
+  font-size: 0.8em;
+  padding-left: 2em;
+  color: $green;
 }
-
-
 .col-explanation a {
-    color:$white;
-    font-weight: 600;
+  color: $white;
+  font-weight: 600;
 }
-
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
-
 .feature {
-    float:left;
-    display:inline;
-    color: $green;
-    font-weight: 400;
+  float: left;
+  display: inline;
+  color: $green;
+  font-weight: 400;
 }
-
 footer {
-    background-color: $dark;
-    color:$white;
-
-    .logo-footer {
-        width:200px;
-    }
+  background-color: $dark;
+  color: $white;
+  .logo-footer {
+    width: 200px;
+  }
 }
-
 .speaker {
-    float:left;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-
-    .speaker-portrait {
-        border-radius:50%;
-        width: 45%;
-    }
-
-    .speaker-name {
-        color:$white;
-    }
-
-    .speaker-talk {
-        font-size:0.7em;
-        color:$white;
-        display:none;
-    }
-
-    a {
-        color:$white;
-        font-weight: 600;
-    }
-}
-
-.speakers {
-    background-color: $green;
-}
-
-.green-title {
-    color:$white;
-}
-
-tbody th {
-    background-color: $green;
-    color: #fff;
+  float: left;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  .speaker-portrait {
+    border-radius: 50%;
+    width: 45%;
+  }
+  .speaker-name {
+    color: $white;
+  }
+  .speaker-talk {
+    font-size: 0.7em;
+    color: $white;
+    display: none;
+  }
+  a {
+    color: $white;
     font-weight: 600;
-    text-align: center;
-    width:225px;
+  }
 }
-
+.speakers {
+  background-color: $green;
+}
+.green-title {
+  color: $white;
+}
+tbody th {
+  background-color: $green;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  width: 225px;
+}
 tbody td {
-    text-align:left;
-    padding-left:1em;
-    background-color: #eee;
+  text-align: left;
+  padding-left: 1em;
+  background-color: #eee;
 }
-
-thead td{
-    font-weight: 800;
-    background-color: $dark;
-    color: #fff;
-    padding:0.6em!important;
+thead td {
+  font-weight: 800;
+  background-color: $dark;
+  color: #fff;
+  padding: 0.6em !important;
 }
-
-
 table {
-    width:100%;
-    border:none;
+  width: 100%;
+  border: none;
 }
-
+.sponsors {
+  .sponsor {
+    display: block;
+    height: 300px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    span {
+      display: none;
+    }
+  }
+}
 @media(max-width:768px) {
-    .speaker-portrait {
-        width:35%!important;
-    }
-}
-
-.sponsor {
-    float:left;
-    .sponsor-logo {
-        width:50%;
-    }
+  .speaker-portrait {
+    width: 35%!important;
+  }
 }
