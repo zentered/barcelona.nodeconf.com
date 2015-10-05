@@ -4,5 +4,10 @@
         "twitter": "fhinkel",
         "portrait": "fhinkel",
         "talk": "V8 under the Hood"
+    }, {
+        "name": "Luca Maraschi",
+        "twitter": "lucamaraschi",
+        "portrait": "luca-maraschi",
+        "talk": "Node.js speleology - digging into application’s misbehaviours"
     }
 ]
