@@ -1,13 +1,23 @@
 [
-    {
-        "name": "Franziska Hinkelmann",
-        "twitter": "fhinkel",
-        "portrait": "fhinkel",
-        "talk": "V8 under the Hood"
-    }, {
-        "name": "Luca Maraschi",
-        "twitter": "lucamaraschi",
-        "portrait": "luca-maraschi",
-        "talk": "Node.js speleology - digging into application’s misbehaviours"
-    }
+  {
+    "name": "Daniel Khan",
+    "twitter": "dkhan",
+    "portrait": "",
+    "talk": "Welcome to Mordor! Hunting Performance Issues in Node.js"
+  }, {
+    "name": "Franziska Hinkelmann",
+    "twitter": "fhinkel",
+    "portrait": "fhinkel",
+    "talk": "V8 under the Hood"
+  }, {
+    "name": "Igor Soarez",
+    "twitter": "igorsoarez",
+    "portrait": "igor",
+    "talk": "Fast track to becoming a solid Node.js developer"
+  }, {
+    "name": "Luca Maraschi",
+    "twitter": "lucamaraschi",
+    "portrait": "luca-maraschi",
+    "talk": "Node.js speleology - digging into application’s misbehaviours"
+  }
 ]

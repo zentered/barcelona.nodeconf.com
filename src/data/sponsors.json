@@ -4,8 +4,21 @@
         "companies": []
     },
     {
-      "category": "synchronous",
-      "companies": [
+        "category": "sponsor",
+        "companies": [
+            {
+                "name": "YLD!",
+                "logo": "yld"
+            },
+            {
+                "name": "dynatrace",
+                "logo": "dynatrace"
+            }
+        ]
+    },
+    {
+        "category": "synchronous",
+        "companies": [
             {
                 "name": "blended.io",
                 "logo": "blended"
@@ -13,7 +26,7 @@
         ]
     },
     {
-      "category": "asynchronous",
-      "companies": []
+        "category": "asynchronous",
+        "companies": []
     }
 ]

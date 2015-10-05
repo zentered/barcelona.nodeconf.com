@@ -55,13 +55,13 @@ NodeConf Barcelona is the event that gets all node.js developers into a room for
         <td><i class="fa fa-times"></i></td>
         <td><i class="fa fa-times"></i></td>
         <td><i class="fa fa-times"></i></td>
-        <td><i class="fa fa-times"></i></td>
+        <td>Branded Coffee Table or Lanyards</td>
         <td>Sponsor After-Party</td>
       </tr>
       <tr><td colspan="5" class="text-center"><h4>Recruiting</h4></td></tr>
       <tr>
         <td>Free job listing on<br> JobFluent (value 99,-)</td>
-        <td>4 free job listings on<br> JobFluent (value 299,-)</td>
+        <td></td>
         <td>4 free job listings on<br> JobFluent (value 299,-)</td>
         <td>4 free job listings on<br> JobFluent (value 299,-)</td>
         <td>4 free job listings on<br> JobFluent (value 299,-)</td>
