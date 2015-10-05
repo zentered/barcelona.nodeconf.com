@@ -39,7 +39,7 @@ NodeConf Barcelona is the event that gets all node.js developers into a room for
       </tr>
       <tr>
         <td>incl. 1 Ticket <i class="fa fa-ticket"></i></td>
-        <td>incl. 3 Tickets <i class="fa fa-ticket"></i></td>
+        <td>incl. 2 Tickets <i class="fa fa-ticket"></i></td>
         <td>incl. 3 Tickets <i class="fa fa-ticket"></i></td>
         <td>incl. 5 Tickets <i class="fa fa-ticket"></i></td>
         <td>incl. 5 Tickets <i class="fa fa-ticket"></i></td>
