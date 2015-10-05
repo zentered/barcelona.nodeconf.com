@@ -1,172 +1,91 @@
 @import 'partials/_vars.scss';
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
 
-@mixin hexagon($factor) {
-  position: relative;
-  width: 150px * $factor;
-  left: 40px * $factor;
-  height: 86.60px * $factor;
-  margin: 43.30px * $factor 0;
-  background-color: #88bf43;
-  background-size: auto 173.2051px * $factor;
-  background-position: center;
-  display: inline-block;
-  text-align: left;
-
-  &.hexagon-center {
-    margin-left: -75px * $factor;
-  }
-
-  &.hexagon-tile {
-    margin-left: -75px * $factor / 2;
-    margin-right: 75px * $factor / 2;
-    margin-bottom: 0;
-  }
-
-  .hexTop,
-  .hexBottom {
-    position: absolute;
-    z-index: 1;
-    width: 106.07px * $factor;
-    height: 106.07px * $factor;
-    overflow: hidden;
-    -webkit-transform: scaleY(0.5774) rotate(-45deg);
-    -ms-transform: scaleY(0.5774) rotate(-45deg);
-    transform: scaleY(0.5774) rotate(-45deg);
-    background: inherit;
-    left: 21.97px * $factor;
-  }
-
-  /*counter transform the bg image on the caps*/
-  .hexTop:after,
-  .hexBottom:after {
-    content: "";
-    position: absolute;
-    width: 150.0000px * $factor;
-    height: 86.60254037844388px * $factor;
-    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px * $factor);
-    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px * $factor);
-    transform: rotate(45deg) scaleY(1.7321) translateY(-43.3013px * $factor);
-    -webkit-transform-origin: 0 0;
-    -ms-transform-origin: 0 0;
-    transform-origin: 0 0;
-    background: inherit;
-  }
-
-  .hexTop {
-    top: -53.0330px * $factor;
-  }
-
-  .hexTop:after {
-    background-position: center top;
-  }
-
-  .hexBottom {
-    bottom: -53.0330px * $factor;
-  }
-
-  .hexBottom:after {
-    background-position: center bottom;
-  }
-
-  &:after {
-    content: "";
-    position: absolute;
-    top: 0.0000px * $factor;
-    left: 0;
-    width: 150.0000px * $factor;
-    height: 86.6025px * $factor;
-    z-index: 2;
-    background: inherit;
-  }
-}
-
-
-// CSS
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-a {
-  color: $green;
-}
-
-body {
-  margin-bottom: 300px;
-  font: 300 14px/1.5 'Source Sans Pro',Open Sans,Roboto,Helvetica,Arial,sans-serif;
-}
-
-p, a, span {
-  font: 300 14px/1.5 'Source Sans Pro',Open Sans,Roboto,Helvetica,Arial,sans-serif;
+html, body {
+    margin:0;
+    font-family: Source Sans Pro;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding:0;
+    overflow-x:hidden;
 }
 
 .header {
   background-color: $dark;
   color: white;
-  padding: 50px;
+  padding:4em;
+  text-align:center;
+  a {
+    font-weight: 600;
+  }
 }
 
-.btn {
-  background-color: $green;
-  color: white;
-  border: 0;
-  margin: 25px;
+.logo {
+    width:650px;
 }
 
-.info {
-  font-weight: 500;
-  font-size: 18px;
+a.btn {
+    padding: 8px 22px;
+    font-weight: 800;
+    margin-bottom:0.67em;
+    background-color: $green;
+    color:$white;
+    text-decoration: none;
+    border-radius:2px;
 }
 
-.nodeconf {
-  display: block;
-  max-width: 350px;
-  height: 50px;
-  width: 350px;
-  color: white;
-  background-image: url(/assets/img/nodeconf.svg);
+a.btn:hover {
+    background-color: #719e12;
 }
 
-.venue-hexagon {
-  @include hexagon(1.1);
+.venue-location {
+    font-weight: 400;
 }
 
-.venue-hexagon-col {
-  margin-bottom: 30px;
+a {
+    color:$green;
+    text-decoration: none;
 }
 
-.content {
-  max-width: 1200px;
-  margin: 20px auto;
+.wrap {
+    max-width: 1200px;
+    margin:0 auto;
+    padding:2em;
 }
 
-.footer {
-  margin-top: 25px;
-  background-color: $gray;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: 250px;
+.venue-explanation {
+    background-color: $green;
+    color:$white;
 }
 
-.footer p {
-  color: #f0f0f0;
+.venue-features {
+    font-size:0.8em;
+    padding-left:2em;
+    color:$green;
 }
 
-.footer a {
-  color: $green;
+
+.col-explanation a {
+    color:$white;
+    font-weight: 600;
 }
 
-.logo-footer {
-  width: 100px;
-  height: 100px;
+a:hover {
+    text-decoration: underline;
 }
 
-.sponsors-table td:nth-child(2n+1) {
-  background-color: #f3f9ec;
-  text-shadow: 0 0.1em 0.1em white;
+.feature {
+    float:left;
+    display:inline;
+    color: $green;
+    font-weight: 400;
 }
-.sponsors-table td[colspan="5"] {
-  background-color: white;
+
+footer {
+    background-color: $dark;
+    color:$white;
+
+    .logo-footer {
+        width:200px;
+    }
 }
