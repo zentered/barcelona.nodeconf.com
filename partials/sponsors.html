@@ -1,5 +1,17 @@
 <section class="sponsors wrap">
-    <h2 class="center m3">Sponsors</h2> {{#each sponsors}} {{category}} {{#each companies}}
-    <img alt="{{name}}" src="/assets/img/sponsors/{{logo}}.png" class="sponsor-logo" /> {{/each}} {{/each}}
-    <p>We're still looking for more amazing companies willing to support this event. Sponsorship information can be found <a href="/sponsors.html">here</a>. If you are interested in sponsoring, please drop an email to <a href="mailto:patrick@barcelonajs.org?subject=NodeConf Sponsoring">patrick@barcelonajs.org</a> for more details.</p>
+    <h2 class="center m3">Sponsors</h2>
+    <div class="row">
+    {{#each sponsors}}
+       <!-- {{category}} -->
+            {{#each companies}}
+        <div class="col-xs-12 col-md-4 sponsor center-xs">
+                <img alt="{{name}}" src="/assets/img/sponsors/{{logo}}.png" class="sponsor-logo" />
+        </div>
+    {{/each}} {{/each}}
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <p>We're still looking for more amazing companies willing to support this event. Sponsorship information can be found <a href="/sponsors.html">here</a>. If you are interested in sponsoring, please drop an email to <a href="mailto:patrick@barcelonajs.org?subject=NodeConf Sponsoring">patrick@barcelonajs.org</a> for more details.</p>
+        </div>
+    </div>
 </section>

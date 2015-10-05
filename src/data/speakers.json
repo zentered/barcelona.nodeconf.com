@@ -2,7 +2,7 @@
   {
     "name": "Daniel Khan",
     "twitter": "dkhan",
-    "portrait": "",
+    "portrait": "dkhan",
     "talk": "Welcome to Mordor! Hunting Performance Issues in Node.js"
   }, {
     "name": "Franziska Hinkelmann",
@@ -18,6 +18,6 @@
     "name": "Luca Maraschi",
     "twitter": "lucamaraschi",
     "portrait": "luca-maraschi",
-    "talk": "Node.js speleology - digging into application’s misbehaviours"
+    "talk": "Node.js speleology - Digging into application’s misbehaviours"
   }
 ]
