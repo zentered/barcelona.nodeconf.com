@@ -32,7 +32,7 @@ Metalsmith(__dirname)
   }))
   .use(browserSync({
     server: './build',
-    files: ['src/**/*.*']
+    files: ['src/**/*.*','layouts/*.html','partials/*.html']
   }))
   .build(function(error) {
     if (error) {

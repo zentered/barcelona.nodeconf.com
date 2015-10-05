@@ -25,3 +25,9 @@ build/*
 node_modules
 live
 live/*
+
+# Editor config files
+*.sublime-*
+
+# OS X Files
+*.DS_Store
