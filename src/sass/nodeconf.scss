@@ -1,6 +1,4 @@
-$green: #7aab13;
-$dark: #333;
-$gray: #404042;
+@import 'partials/_vars.scss';
 
 @mixin hexagon($factor) {
   position: relative;
