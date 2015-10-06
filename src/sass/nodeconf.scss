@@ -112,6 +112,9 @@ footer {
   .footer-left {
     text-align: left;
   }
+  .credits {
+
+  }
 }
 .speaker {
   float: left;
@@ -150,25 +153,29 @@ footer {
 tbody th {
   color: $dark;
   font-weight: 400;
-  text-align: center;
-  width: 225px;
+  text-align: left;
+  width:125px;
+  padding-right: 0.5em;
 }
 tbody td {
   text-align: left;
   padding-left: 1em;
   background-color: #eee;
+     margin:0;
+  padding:0;
 }
 thead td {
   font-weight: 800;
   text-align: left;
   color: $dark;
-  padding: 0.6em !important;
+  padding-bottom: 1em!important;
 }
 table {
   width: 100%;
   border: none;
-  color: $green;
+  color:$green;
   font-weight: 600;
+  padding-bottom: 1em;
 }
 .sponsors {
   .sponsor {
@@ -204,15 +211,10 @@ table {
     font-size: 1.3em;
   }
   .header {
-    background: $dark url("/assets/img/bg-full.svg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     padding: 0;
   }
   .banner {
-    background-color: rgb(255,255,255);
+    background-color: #eee;
     padding: 1.2em;
   }
   .logo {
