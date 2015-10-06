@@ -10,9 +10,12 @@ body {
   overflow-x: hidden;
 }
 .header {
-  background: $dark url("/assets/img/bg.svg") no-repeat;
+  background: $dark url("/assets/img/bg-full.svg") no-repeat center center fixed;
   background-position: center center;
-  background-size: 200%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color: $dark;
   padding: 0;
   margin: 0;
@@ -20,26 +23,30 @@ body {
   a {
     font-weight: 600;
   }
+  height: 550px;
 }
 .conf-title {
   margin-top: 0;
 }
 .banner {
   color: $dark;
-  background-color: white;
-  border-bottom: 5px solid white;
+  background-color: $white;
+  height:550px;
+  padding:1em;
 }
 .logo {
-  width: 350px;
-  background-color: white;
+  width: 245px;
+  max-width: 50%;
+  margin-top:-1.5em;
+  margin-bottom:1.5em;
 }
 a.btn:hover {
   text-decoration: none;
 }
 a.btn {
-  padding: 15px 30px;
+  padding: 0.5rem 1rem;
   font-weight: 800;
-  font-size: 32px;
+  font-size: 1.6em;
   margin-bottom: 0.67em;
   background-color: $green;
   color: $white;
@@ -63,17 +70,17 @@ a {
 }
 .teaser {
   background-color: $green;
-  font-size: 14px;
+  font-size: 0.7em;
   color: $white;
   a {
     color: $white;
   }
 }
 .introduction {
-  font-size: 18px;
+  font-size: 1em;
 }
 .venue-features {
-  font-size: 0.8em;
+  font-size: 0.9em;
   padding-left: 2em;
   color: $green;
 }
@@ -93,9 +100,22 @@ a:hover {
 footer {
   background-color: $dark;
   color: $white;
-  .logo-footer {
-    width: 200px;
+  .logo-footer-bcnjs {
+    width: 100px;
   }
+
+  .logo-footer-nodeconf {
+    width: 250px;
+  }
+
+  .footer-right {
+    text-align: right;
+  }
+
+  .footer-left {
+    text-align: left;
+  }
+
 }
 .speaker {
   float: left;
@@ -106,28 +126,31 @@ footer {
     width: 45%;
   }
   .speaker-name {
-    color: $white;
+    color: $green;
   }
   .speaker-talk {
     font-size: 0.7em;
-    color: $white;
+    color: $green;
     display: none;
   }
   a {
-    color: $white;
+    color: $green;
     font-weight: 600;
   }
 }
 .speakers {
-  background-color: $green;
+  background-color: $white;
 }
-.green-title {
-  color: $white;
+.schedule {
+    background-color: #eee;
+
+    .schedule-table {
+        float:left;
+    }
 }
 tbody th {
-  background-color: $green;
-  color: #fff;
-  font-weight: 600;
+  color: $dark;
+  font-weight: 400;
   text-align: center;
   width: 225px;
 }
@@ -138,13 +161,15 @@ tbody td {
 }
 thead td {
   font-weight: 800;
-  background-color: $dark;
-  color: #fff;
+  text-align: left;
+  color: $dark;
   padding: 0.6em !important;
 }
 table {
   width: 100%;
   border: none;
+  color:$green;
+  font-weight: 600;
 }
 .sponsors {
   .sponsor {
@@ -158,8 +183,53 @@ table {
     }
   }
 }
+
+@media(max-width:1000px) {
+    a.btn {
+        padding:0.5rem 0.6rem;
+        font-size:1.2em;
+    }
+    .logo {
+        min-width:205px!important;
+        margin-bottom: 0.2em;
+    }
+}
+
 @media(max-width:768px) {
   .speaker-portrait {
     width: 35%!important;
   }
+  .footer-right, .footer-left {
+    text-align: center!important;
+  }
+  .conf-title {
+    font-size:1.3em;
+  }
+
+  .header {
+    padding:1.2em;
+    background: $dark url("/assets/img/bg-full.svg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding:0;
+  }
+
+  .banner {
+    background-color: rgba(255,255,255,0.4);
+    padding:1.2em;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .conf-title, .venue-location {
+    color:$white;
+  }
+}
+
+.coc {
+    font-size:1.2em;
 }
