@@ -1,16 +1,12 @@
 [
   {
-    "category": "Synchronous",
+    "category": "Sponsor",
     "companies": [
       {
         "name": "blended.io",
         "logo": "blended",
         "url": "http://blended.io"
-          }
-      ]
-  }, {
-    "category": "Sponsor",
-    "companies": [
+      },
       {
         "name": "YLD!",
         "logo": "yld",
