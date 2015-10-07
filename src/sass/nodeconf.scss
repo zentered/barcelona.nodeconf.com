@@ -58,12 +58,15 @@ body {
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 1.6em;
   background-color: $green;
   color: $white;
   text-decoration: none;
   border-radius: 2px;
+}
+.btn-section {
+    margin-top:1em;
 }
 .btn:hover {
   text-decoration: none;
@@ -178,7 +181,7 @@ tbody th {
   font-weight: 400;
   text-align: left;
   width: 125px;
-  padding-right: 0.5em;
+  padding-right: 1em;
 }
 tbody td {
   text-align: left;
@@ -235,7 +238,7 @@ table {
     margin-bottom: 0.2em;
   }
 }
-@media(max-width:768px) {
+@media(max-width:767px) {
   .speaker-portrait {
     width: 35%!important;
   }
@@ -271,4 +274,7 @@ table {
 }
 .trainer-portrait {
   width: 100%;
+}
+.workshop-title {
+    color:$green;
 }
