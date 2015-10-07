@@ -37,8 +37,7 @@ body {
 .logo {
   width: 245px;
   max-width: 50%;
-  margin-top: -1.5em;
-  margin-bottom: 1.5em;
+  margin-top: -1.8em;
 }
 .header a.btn:hover {
   text-decoration: none;
@@ -54,12 +53,11 @@ body {
   border-radius: 2px;
 }
 .header a.btn:hover {
-  background-color: #719e12;
+  background-color: $greenhover;
 }
 .btn {
   display: inline-block;
-  padding: 25px;
-  margin: 25px;
+  padding: 0.5rem 1rem;
   font-weight: 600;
   font-size: 1.6em;
   background-color: $green;
@@ -69,8 +67,8 @@ body {
 }
 .btn:hover {
   text-decoration: none;
-  background-color: $white;
-  color: $green;
+  background-color: $greenhover;
+  color: $white;
 }
 .venue-location {
   font-weight: 400;
@@ -197,13 +195,20 @@ table {
   .sponsor {
     display: block;
     height: 200px;
-    background-size: 50%;
+    background-size: 75%;
     background-repeat: no-repeat;
     background-position: center center;
     span {
       display: none;
     }
   }
+    .npm {
+        background-size: 50%;
+    }
+
+    .YLD {
+        background-size: 35%;
+    }
 }
 .sponsors-table {
   tr {
@@ -216,10 +221,6 @@ table {
   }
 }
 @media(max-width:1000px) {
-  .header a.btn {
-    padding: 0.5rem 0.6rem;
-    font-size: 1.2em;
-  }
   .logo {
     min-width: 205px!important;
     margin-bottom: 0.2em;
@@ -250,6 +251,11 @@ table {
   .venue-location {
     color: $dark;
   }
+  .header a.btn, .schedule a.btn{
+    padding: 0.5rem 0.6rem;
+    font-size: 1.2em;
+  }
+
 }
 .coc {
   font-size: 1.2em;
