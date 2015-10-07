@@ -49,16 +49,21 @@ title: Workshop Node.js Performance training
     <div class="row">
       <div class="col-xs-4">
         <h5>Tom Gallacher</h5>
-        Tom is a Senior Consultant at YLD!. He has been developing production Node.js applications and modules since 2011, previously working for Clock. Tom has a keen interest in performance analysis of Node.js applications, Docker and distributed
-        systems. Tom is an experienced Node.js developer with a penchant for performance. Tom is the resident YLD hydroponics expert as well as a brewed beverage connosieur.
+        <img alt="tom" src="/assets/img/trainers/tom.png" class="trainer-portrait" />
+        <br>
+        Tom is an experienced Node.js developer with a penchant for performance. Tom is the resident YLD hydroponics expert as well as a brewed beverage connosieur.
       </div>
       <div class="col-xs-4">
         <h5>Hassy Veldstra</h5>
+        <img alt="tom" src="/assets/img/trainers/hassy.png" class="trainer-portrait" />
+        <br>
         Node.js developer with an interest in application performance and measuring all the things, Hassy is a Senior Consultant at YLD! and open-source enthusiast.
       </div>
       <div class="col-xs-4">
-        <h5>Igor Soarez Igor</h5>
-        is a Senior Consultant at YLD!. He prefers simple solutions but also enjoys troubleshooting through complex scenarios. Not very fond of GUIs. Igor likes to make tests and experiments to learn.
+        <h5>Igor Soarez</h5>
+        <img alt="tom" src="/assets/img/trainers/igor.png" class="trainer-portrait" />
+        <br>
+        Igor is a Senior Consultant at YLD!, he has a preference for simple solutions, enjoys troubleshooting and is always interested in learning something new.
       </div>
     </div>
   </div>
