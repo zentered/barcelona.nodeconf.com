@@ -8,11 +8,11 @@ title: Workshop Node.js Performance training
 
     <h3>Sunday, November 22</h3>
 
-    <h4>Workshop: Node.js Performance training</h4>
+    <h2 class="workshop-title">Workshop: Node.js Performance training</h2>
 
-    <p>One day hands on training about Node.js Performance brought to you by YLD! and delivered by Tom Gallacher, Hassy Veldstra and Igor Soarez.</p>
+    <p>One day hands on training about Node.js Performance brought to you by <a href="http://yld.io">YLD!</a> and delivered by <b>Tom Gallacher</b>, <b>Hassy Veldstra</b> and <b>Igor Soarez</b>.</p>
 
-    <p>Node.js is great for real-time services, but what do you do when performance starts lacking? This workshop will help you gain the knowledge to identify, troubleshoot and improve performance issues in Node.js applications.</p>
+    <p><a href="http://nodejs.org">Node.js</a> is great for real-time services, but what do you do when performance starts lacking? This workshop will help you gain the knowledge to identify, troubleshoot and improve <b>performance</b> issues in Node.js applications.</p>
 
     <h4>Come if you are interested in</h4>
     <ul>
@@ -45,21 +45,21 @@ title: Workshop Node.js Performance training
       <li>Intermediate understanding of operating systems</li>
     </ul>
 
-    <h4>Meet your trainers</h4>
-    <div class="row">
-      <div class="col-xs-4">
+    <h4 class="workshop-title">Meet your trainers</h4>
+    <div class="row trainers">
+      <div class="col-xs-12 col-sm-4 col-md-4">
         <h5>Tom Gallacher</h5>
         <img alt="tom" src="/assets/img/trainers/tom.png" class="trainer-portrait" />
         <br>
         Tom is an experienced Node.js developer with a penchant for performance. Tom is the resident YLD hydroponics expert as well as a brewed beverage connosieur.
       </div>
-      <div class="col-xs-4">
+      <div class="col-xs-12 col-sm-4 col-md-4">
         <h5>Hassy Veldstra</h5>
         <img alt="tom" src="/assets/img/trainers/hassy.png" class="trainer-portrait" />
         <br>
         Node.js developer with an interest in application performance and measuring all the things, Hassy is a Senior Consultant at YLD! and open-source enthusiast.
       </div>
-      <div class="col-xs-4">
+      <div class="col-xs-12 col-sm-4 col-md-4">
         <h5>Igor Soarez</h5>
         <img alt="tom" src="/assets/img/trainers/igor.png" class="trainer-portrait" />
         <br>
@@ -68,6 +68,6 @@ title: Workshop Node.js Performance training
     </div>
   </div>
   <div class="col-xs-12 center-xs">
-    <a href="https://ti.to/barcelonajs/nodeconf-barcelona-2015" target="_blank" onclick="_gs('event', 'Clicked Workshop Ticket link')" class="btn btn-lg">Register for the Workshop</a>
+    <a href="https://ti.to/barcelonajs/nodeconf-barcelona-2015" target="_blank" onclick="_gs('event', 'Clicked Workshop Ticket link')" class="btn btn-lg btn-section">Register for the Workshop</a>
   </div>
 </div>
