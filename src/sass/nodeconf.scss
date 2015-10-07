@@ -164,6 +164,15 @@ footer {
     font-weight: normal;
   }
 }
+.workshop {
+  .schedule-date {
+    padding-bottom: 0.8em !important;
+  }
+  h4 {
+    margin-top: 0;
+  }
+}
+
 tbody th {
   color: $dark;
   font-weight: 400;
@@ -188,7 +197,7 @@ table {
   width: 100%;
   border: none;
   color: $green;
-  font-weight: 600;
+  font-weight: 400;
   padding-bottom: 1em;
 }
 .sponsors {
