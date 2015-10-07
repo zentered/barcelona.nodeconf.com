@@ -40,10 +40,10 @@ body {
   margin-top: -1.5em;
   margin-bottom: 1.5em;
 }
-a.btn:hover {
+.header a.btn:hover {
   text-decoration: none;
 }
-a.btn {
+.header a.btn {
   padding: 0.5rem 1rem;
   font-weight: 800;
   font-size: 1.6em;
@@ -53,8 +53,24 @@ a.btn {
   text-decoration: none;
   border-radius: 2px;
 }
-a.btn:hover {
+.header a.btn:hover {
   background-color: #719e12;
+}
+.btn {
+  display: inline-block;
+  padding: 25px;
+  margin: 25px;
+  font-weight: 600;
+  font-size: 1.6em;
+  background-color: $green;
+  color: $white;
+  text-decoration: none;
+  border-radius: 2px;
+}
+.btn:hover {
+  text-decoration: none;
+  background-color: $white;
+  color: $green;
 }
 .venue-location {
   font-weight: 400;
@@ -154,26 +170,26 @@ tbody th {
   color: $dark;
   font-weight: 400;
   text-align: left;
-  width:125px;
+  width: 125px;
   padding-right: 0.5em;
 }
 tbody td {
   text-align: left;
   padding-left: 1em;
   background-color: #eee;
-     margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 thead td {
   font-weight: 800;
   text-align: left;
   color: $dark;
-  padding-bottom: 1em!important;
+  padding-bottom: 1em !important;
 }
 table {
   width: 100%;
   border: none;
-  color:$green;
+  color: $green;
   font-weight: 600;
   padding-bottom: 1em;
 }
@@ -189,8 +205,18 @@ table {
     }
   }
 }
+.sponsors-table {
+  tr {
+    td {
+      font-weight: normal;
+      font-size: 16px;
+      color: $dark;
+      padding: 5px;
+    }
+  }
+}
 @media(max-width:1000px) {
-  a.btn {
+  .header a.btn {
     padding: 0.5rem 0.6rem;
     font-size: 1.2em;
   }

@@ -4,18 +4,23 @@
     "companies": [
       {
         "name": "blended.io",
-        "logo": "blended",
+        "logo": "blended.png",
         "url": "http://blended.io"
-      },
-      {
-        "name": "YLD!",
-        "logo": "yld",
-        "url": "http://yld.io"
             },
       {
         "name": "dynatrace",
-        "logo": "dynatrace",
+        "logo": "dynatrace.png",
         "url": "http://dynatrace.com"
+            },
+      {
+        "name": "npm",
+        "logo": "npm-logo.svg",
+        "url": "http://npmjs.com"
+            },
+      {
+        "name": "YLD!",
+        "logo": "yld.png",
+        "url": "http://yld.io"
             }
         ]
     }

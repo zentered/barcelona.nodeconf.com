@@ -1,5 +1,10 @@
 [
   {
+    "name": "Aria Stewart",
+    "twitter": "aredridel",
+    "portrait": "Ari-400x400",
+    "talk": "Networking for Node Programmers"
+  }, {
     "name": "Daniel Khan",
     "twitter": "dkhan",
     "portrait": "dkhan",
