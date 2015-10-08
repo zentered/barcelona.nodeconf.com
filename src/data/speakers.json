@@ -10,6 +10,11 @@
     "portrait": "dkhan",
     "talk": "Welcome to Mordor! Hunting Performance Issues in Node.js"
   }, {
+    "name": "David Grübl",
+    "twitter": "davidgruebl",
+    "portrait": "dtg_2to3_horizontal",
+    "talk": "Rapid Idea Devalidation – how Node.js can help to find ideas worthy of exploration"
+  }, {
     "name": "Franziska Hinkelmann",
     "twitter": "fhinkel",
     "portrait": "fhinkel",
@@ -24,5 +29,10 @@
     "twitter": "lucamaraschi",
     "portrait": "luca-maraschi",
     "talk": "Node.js speleology - Digging into application’s misbehaviours"
+  }, {
+    "name": "Pedro Palazón Candel",
+    "twitter": "kusor",
+    "portrait": "pedro-avatar",
+    "talk": "Debugging Node.js in Production"
   }
 ]
