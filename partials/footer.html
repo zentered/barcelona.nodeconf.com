@@ -27,7 +27,7 @@
     </div>
   </div>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
   ! function(g, s, q, r, d) {
     r = g[r] = g[r] || function() {
@@ -42,6 +42,22 @@
   }(window, document, 'script', '_gs');
 
   _gs('GSN-267775-D');
+  function gmaps() {
+    var position = {lat: 41.3870876, lng: 2.1717197},
+        mapCanvas = document.getElementById('map'),
+        mapOptions = {
+        center: new google.maps.LatLng(41.3870876, 2.1717197),
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    },
+    map = new google.maps.Map(mapCanvas, mapOptions),
+    marker = new google.maps.Marker({
+        position:position,
+        map: map,
+        title: 'MWC'
+    });
+  }
+  google.maps.event.addDomListener(window, 'load', gmaps);
 </script>
 </body>
 </html>
