@@ -135,7 +135,7 @@ footer {
 }
 .speaker {
   float: left;
-  padding-top: 0.5em;
+  padding-top: 1.5em;
   padding-bottom: 0.5em;
   .speaker-portrait {
     border-radius: 50%;
@@ -147,7 +147,12 @@ footer {
   .speaker-talk {
     font-size: 0.7em;
     color: $green;
-    display: none;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+
+    &:hover {
+color:$dark;
+    }
   }
   a {
     color: $green;
