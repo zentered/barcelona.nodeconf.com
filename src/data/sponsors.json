@@ -13,6 +13,11 @@
         "url": "http://dynatrace.com"
             },
       {
+        "name": "icemobile",
+        "logo": "icemobile.svg",
+        "url": "http://icemobile.com"
+            },
+      {
         "name": "npm",
         "logo": "npm-logo.svg",
         "url": "http://npmjs.com"
