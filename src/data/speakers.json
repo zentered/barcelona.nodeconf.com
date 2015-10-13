@@ -8,12 +8,12 @@
     "name": "Daniel Khan",
     "twitter": "dkhan",
     "portrait": "dkhan",
-    "talk": "Welcome to Mordor! Hunting Performance Issues in Node.js"
+    "talk": "Performance Issues in Node.js"
   }, {
     "name": "David Grübl",
     "twitter": "davidgruebl",
     "portrait": "dtg_2to3_horizontal",
-    "talk": "Rapid Idea Devalidation – how Node.js can help to find ideas worthy of exploration"
+    "talk": "Rapid Idea Devalidation"
   }, {
     "name": "Franziska Hinkelmann",
     "twitter": "fhinkel",
@@ -23,7 +23,7 @@
     "name": "Igor Soarez",
     "twitter": "igorsoarez",
     "portrait": "igor",
-    "talk": "Fast track to becoming a solid Node.js developer"
+    "talk": "Becoming a solid Node.js developer"
   }, {
     "name": "Julian Cheal",
     "twitter": "juliancheal",
@@ -34,7 +34,7 @@
     "name": "Luca Maraschi",
     "twitter": "lucamaraschi",
     "portrait": "luca-maraschi",
-    "talk": "Node.js speleology - Digging into application’s misbehaviours"
+    "talk": "Node.js speleology"
   }, {
     "name": "Pedro Palazón Candel",
     "twitter": "kusor",
