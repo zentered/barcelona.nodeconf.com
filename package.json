@@ -20,8 +20,8 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "build": "node build.js",
-    "dev": "node serve.js"
+    "build": "node --harmony build.js",
+    "dev": "node --harmony serve.js"
   },
   "private": false,
   "devDependencies": {
