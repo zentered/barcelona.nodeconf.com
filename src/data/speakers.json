@@ -35,10 +35,23 @@
     "twitter": "lucamaraschi",
     "portrait": "luca-maraschi",
     "talk": "Node.js speleology"
-  }, {
+  }, 
+  {
     "name": "Pedro Palazón Candel",
     "twitter": "kusor",
     "portrait": "pedro-avatar",
     "talk": "Debugging Node.js in Production"
+  },
+  {
+    "name": "Patrick Hund",
+    "twitter": "wiekatz",
+    "portrait": "patrick-hund-avatar",
+    "talk": "Lessons Learned from Building a High-Traffic Express Webapp"
+  },
+  {
+    "name": "Michelle and Claire",
+    "twitter": "nodegirls_LDN",
+    "portrait": "nodegirls_LDN-avatar",
+    "talk": "Coding Education Should Be Free"
   }
 ]
