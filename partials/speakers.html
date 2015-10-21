@@ -1,27 +1,27 @@
 <section class="speakers" id="speakers">
-    <div class="wrap">
-        <h2>Speakers</h2>
-        <div class="row">
-            {{#each speakers}}
-            <div class="col-xs-12 col-md-3 speaker center-xs">
-                <img alt="{{name}}" src="/assets/img/speakers/{{portrait}}.png" class="speaker-portrait" />
-                <br>
-                <span class="speaker-name">{{name}}</span>
-                <br>
-                <span class="speaker-twitter">
-                    <a href="https://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a>
-                </span>
-                {{#if twitter2}}
-                <span class="speaker-twitter">
-                    <a href="https://twitter.com/{{twitter2}}" target="_blank">@{{twitter2}}</a>
-                </span>
-                {{/if}}
-                <br>
-                <span class="speaker-talk">
-                    {{talk}}
-                </span>
-            </div>
-            {{/each}}
+  <div class="wrap">
+    <h2>Speakers</h2>
+    <div class="row">
+      {{#each speakers}}
+        <div class="col-xs-12 col-md-3 speaker center-xs">
+          <img alt="{{name}}" src="/assets/img/speakers/{{portrait}}.png" class="speaker-portrait" />
+          <br>
+          <span class="speaker-name">{{name}}</span>
+          <br>
+          <span class="speaker-twitter">
+            <a href="https://twitter.com/{{twitter}}" target="_blank">@{{twitter}}</a>
+          </span>
+          {{#if twitter2}}
+            <span class="speaker-twitter">
+              <a href="https://twitter.com/{{twitter2}}" target="_blank">@{{twitter2}}</a>
+            </span>
+          {{/if}}
+          <br>
+          <span class="speaker-talk">
+            {{talk}}
+          </span>
         </div>
+      {{/each}}
     </div>
+  </div>
 </section>
