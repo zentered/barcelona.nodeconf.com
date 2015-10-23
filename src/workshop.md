@@ -7,6 +7,7 @@ title: Workshop Node.js Performance training
   <div class="col-xs-10 col-xs-offset-1">
 
     <h3>Sunday, November 22</h3>
+    <h5>10.00 - 18.00, Venue tba soon</h5>
 
     <h2 class="workshop-title">Workshop: Node.js Performance training</h2>
 
