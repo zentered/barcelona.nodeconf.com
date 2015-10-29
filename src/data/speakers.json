@@ -5,6 +5,11 @@
     "portrait": "Ari-400x400",
     "talk": "Networking for Node Programmers"
   }, {
+    "name": "Bruno Pedro",
+    "twitter": "bpedro",
+    "portrait": "bruno",
+    "talk": "Asynchronous Microservices with Node.js"
+  }, {
     "name": "Daniel Khan",
     "twitter": "dkhan",
     "portrait": "dkhan",
@@ -14,6 +19,11 @@
     "twitter": "davidgruebl",
     "portrait": "dtg_2to3_horizontal",
     "talk": "Rapid Idea Devalidation"
+  }, {
+    "name": "Eugene Pshenichniy",
+    "twitter": "pshenichnyy",
+    "portrait": "dorXm6vIcxs",
+    "talk": "Generator middleware vs promise-based"
   }, {
     "name": "Franziska Hinkelmann",
     "twitter": "fhinkel",
@@ -35,7 +45,7 @@
     "twitter": "lucamaraschi",
     "portrait": "luca-maraschi",
     "talk": "Node.js speleology"
-  }, 
+  },
   {
     "name": "Pedro Palazón Candel",
     "twitter": "kusor",
