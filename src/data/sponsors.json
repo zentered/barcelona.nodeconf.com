@@ -26,6 +26,11 @@
                 "name": "YLD",
                 "logo": "yld.png",
                 "url": "http://yld.io"
+            },
+            {
+                "name": "Ebay",
+                "logo": "ebay.svg",
+                "url": "http://www.ebay.de"
             }
         ]
     },
