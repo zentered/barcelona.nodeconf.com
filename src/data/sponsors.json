@@ -43,5 +43,25 @@
                 "url": "http://developer.getupcode.com/"
             }
         ]
+    },
+    {
+        "category": "Venue",
+        "companies": [
+            {
+                "name": "Mobile World Centre",
+                "logo": "mwc-white.svg",
+                "url": "https://www.mobileworldcentre.com/"
+            },
+            {
+                "name": "Mobile World Capital",
+                "logo": "capital.svg",
+                "url": "http://mobileworldcapital.com"
+            },
+            {
+                "name": "movistar",
+                "logo": "movistar.svg",
+                "url": "http://www.movistar.com"
+            }
+        ]
     }
 ]
