@@ -3,6 +3,11 @@
         "category": "Sponsor",
         "companies": [
             {
+                "name": "YLD",
+                "logo": "yld.png",
+                "url": "http://yld.io"
+            },
+            {
                 "name": "blended.io",
                 "logo": "blended.png",
                 "url": "http://blended.io"
@@ -23,14 +28,14 @@
                 "url": "http://npmjs.com"
             },
             {
-                "name": "YLD",
-                "logo": "yld.png",
-                "url": "http://yld.io"
-            },
-            {
                 "name": "Ebay",
                 "logo": "ebay.svg",
                 "url": "http://www.ebay.de"
+            },
+            {
+                "name": "Protocol Labs Inc.",
+                "logo": "protocollabs.png",
+                "url": "http://ipn.io"
             }
         ]
     },
