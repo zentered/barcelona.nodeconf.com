@@ -1,12 +1,17 @@
 [
     {
-        "category": "Sponsor",
+        "category": "Synchronous",
         "companies": [
             {
                 "name": "YLD",
                 "logo": "yld.png",
                 "url": "http://yld.io"
-            },
+            }
+        ]
+    },
+    {
+        "category": "Sponsor",
+        "companies": [
             {
                 "name": "blended.io",
                 "logo": "blended.png",
@@ -30,7 +35,7 @@
             {
                 "name": "Ebay",
                 "logo": "ebay.svg",
-                "url": "http://www.ebay.de"
+                "url": "http://technology.ebay.de"
             },
             {
                 "name": "Protocol Labs Inc.",
@@ -42,6 +47,11 @@
     {
         "category": "Startup",
         "companies": [
+            {
+                "name": "Altran Innovación",
+                "logo": "altran.svg",
+                "url": "http://www.altran.es"
+            },
             {
                 "name": "Getupcode",
                 "logo": "getupcode.png",
