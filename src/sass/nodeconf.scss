@@ -1,127 +1,224 @@
 @import 'partials/_vars.scss';
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700);
 html,
 body {
   margin: 0;
-  font-family: Source Sans Pro;
+  font-family: PT Sans;
   font-size: 1.2em;
   font-weight: 300;
   padding: 0;
   overflow-x: hidden;
+  background: rgba(57, 30, 69, 1);
 }
+
+a {
+  color: #ff7f7f;
+  text-decoration: none;
+}
+
+
+
 .header {
-  background: $dark url("/assets/img/bg-full.svg") no-repeat center center fixed;
-  background-position: center center;
-  background-size: cover;
-  color: $dark;
+  background: linear-gradient(318deg, #fdbf61, #f5a16f, rgb(255, 163, 102), #ffa37f, #ff7f7f, #ef9351, #ffa37f, #d098af, #fbae94, #ffb94f, #ffcc66, #ff7f7f, #d8a0bc);
+  -moz-animation: SunsetGradient 101s linear infinite;
+  -o-animation: SunsetGradient 101s linear infinite;
+  animation: SunsetGradient 101s linear infinite;
+  background-size: 1000% 1000%;
   padding: 0;
   margin: 0;
   text-align: center;
+  padding-bottom:200px;
+
   a {
-    font-weight: 600;
+    font-weight: 500;
   }
-  height: 550px;
+  height: 100vh;
 }
-.conf-title {
-  margin-top: 0;
+
+@-webkit-keyframes SunsetGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
 }
-.banner {
+@-moz-keyframes SunsetGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@-o-keyframes SunsetGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+@keyframes SunsetGradient {
+    0%{background-position:5% 0%}
+    50%{background-position:96% 100%}
+    100%{background-position:5% 0%}
+}
+
+
+
+.header-title {
+  font-size: 1.8em !important;
+  margin-top: 30px;
+  color: $main;
+}
+
+.wrapper {
   color: $dark;
-  background-color: $white;
-  height: 550px;
   padding: 1em;
+  margin:auto;
 }
-.logo {
-  width: 245px;
-  max-width: 50%;
-  margin-top: -1.8em;
-}
-.header a.btn:hover {
-  text-decoration: none;
-}
-.header a.btn {
-  padding: 0.5rem 1rem;
-  font-weight: 800;
-  font-size: 1.6em;
-  margin-bottom: 0.67em;
-  background-color: $green;
-  color: $white;
-  text-decoration: none;
-  border-radius: 2px;
-}
-.header a.btn:hover {
-  background-color: $greenhover;
-}
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  font-weight: 800;
-  font-size: 1.6em;
-  background-color: $green;
-  color: $white;
-  text-decoration: none;
-  border-radius: 2px;
-}
-.btn-section {
-    margin-top:1em;
-}
-.btn:hover {
-  text-decoration: none;
-  background-color: $greenhover;
-  color: $white;
-}
-.venue {
-    background-color: $lightGray;
-}
-.venue-location {
-  font-weight: 400;
-}
-a {
-  color: $green;
-  text-decoration: none;
-}
+
 .wrap {
-  max-width: 1200px;
+  height:215px;
   margin: 0 auto;
   padding: 2em;
 }
-.teaser {
-  background-color: $green;
-  font-size: 0.7em;
-  color: $white;
-  a {
-    color: $white;
+
+.logo {
+  max-width: 300px;
+  img {
+    max-width: 250px;
+    margin-top: 108px;
+    position: relative;
+  }
+
+  &::before {
+    background-image: url("/assets/img/sun@2x.png");
+    position: absolute;
+    left: 50%;
+    top: 256px;
+    max-width: 440px;
+    -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      background-size: contain;
+      background-position: center center;
+      background-repeat: no-repeat;
+      pointer-events: none;
+      content: '';
+      width: 180%;
+      padding-bottom: 180%;
+      -webkit-transition: -webkit-transform 1s, opacity 1s;
+      -moz-transition: -moz-transform 1s, opacity 1s;
+      -o-transition: -o-transform 1s, opacity 1s;
+      -ms-transition: -ms-transform 1s, opacity 1s;
+      transition: transform 1s, opacity 1s;
+      -webkit-transform-origin: 300% 300%;
+      -moz-transform-origin: 300% 300%;
+      -o-transform-origin: 300% 300%;
+      -ms-transform-origin: 300% 300%;
+      transform-origin: 300% 300%;
   }
 }
-.introduction {
-  font-size: 1em;
+.logo:hover:before {
+
+    -webkit-transform: scale(1.2) translate3d(0, 0, 0);
+    -moz-transform: scale(1.2) translate3d(0, 0, 0);
+    -o-transform: scale(1.2) translate3d(0, 0, 0);
+    -ms-transform: scale(1.2) translate3d(0, 0, 0);
+    transform: scale(1.2) translate3d(0, 0, 0);
 }
-.venue-features {
-  font-size: 0.9em;
-  padding-left: 2em;
-  color: $green;
+
+.venue-location {
+  opacity: 0.7;
+  font-size: 0.8em;
+  margin-top:-20px;
+    margin-bottom: 40px;
+    color: $main;
+    a {
+      color:$main;
+      &:hover{
+        color:$main;
+      }
+    }
+
 }
-.col-explanation a {
-  color: $white;
-  font-weight: 600;
+
+
+a.button {
+  //- FONT
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  //- BLOCK
+  display: inline-block;
+  padding: 20px 30px;
+  position: relative;
+  z-index: 1;
+  //- EFFECTS
+  overflow: hidden;
+  transition: all 1s cubic-bezier(0.65,0.6,0.2,4);
+
+  &:before, &:after {
+
+    //- POSITION
+    position: absolute;
+    //- BLOCK
+    content: '';
+    display: block;
+  }
+
+  &:before{
+    //- POSITION
+    top: -120px;
+    left: 1150px;
+    z-index: -1;
+    //- BLOCK
+    width: calc(100% + 140px);
+    height: 100px;
+    //- EFFECTS
+    transition: all 1s cubic-bezier(0.25,0.1,0.2,1);
+    transform: skew(0deg);
+    background: #ff936e;
+
+  }
+
+  &:after {
+    //- POSITION
+    top: 0;
+    left: 0;
+    z-index: -2;
+    //- BLOCK
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    //- EFFECTS
+    background: #ff6631;
+    border-radius: 3px;
+
+
+  }
+
+
+  &:hover{
+    &:before {
+      left: -50px;
+      top: -20px;
+    }
+  }
+
 }
-a:hover {
-  text-decoration: underline;
-}
-.feature {
-  float: left;
-  display: inline;
-  color: $green;
-  font-weight: 400;
-}
+
+
+
+
+
+// footer
 footer {
-  background-color: $dark;
+  background-color: rgba(57, 30, 69, 0.9);
   color: $white;
+
   .logo-footer-bcnjs {
-    width: 100px;
+    width: 50px;
   }
   .logo-footer-nodeconf {
-    width: 250px;
+    width: 150px;
   }
   .footer-right {
     text-align: right;
@@ -130,124 +227,18 @@ footer {
     text-align: left;
   }
   .credits {
-
-  }
-}
-.speaker {
-  float: left;
-  padding-top: 1.5em;
-  padding-bottom: 0.5em;
-  .speaker-portrait {
-    border-radius: 50%;
-    width: 55%;
-  }
-  .speaker-name {
-    color: $green;
-  }
-  .speaker-talk {
-    font-size: 0.7em;
-    color: $green;
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-
-    &:hover {
-color:$dark;
-    }
-  }
-  a {
-    color: $green;
-    font-weight: 600;
-  }
-}
-.speakers {
-  background-color: $white;
-}
-.schedule {
-  background-color: $lightGray;
-  .schedule-table {
-    float: left;
-  }
-  .schedule-table-workshop {
-    color: $dark;
-    font-weight: normal;
-  }
-}
-.workshop {
-  .schedule-date {
-    padding-bottom: 0.8em !important;
-  }
-  h4 {
-    margin-top: 0;
-  }
-}
-
-tbody th {
-  color: $dark;
-  font-weight: 400;
-  text-align: left;
-  width: 125px;
-  padding-right: 1em;
-}
-tbody td {
-  text-align: left;
-  padding-left: 1em;
-  background-color: $lightGray;
-  margin: 0;
-  padding: 0;
-}
-thead td {
-  font-weight: 800;
-  text-align: left;
-  color: $dark;
-  padding-bottom: 1em !important;
-}
-table {
-  width: 100%;
-  border: none;
-  color: $green;
-  font-weight: 400;
-  padding-bottom: 1em;
-}
-.sponsors {
-  .sponsor {
-    display: block;
-    height: 200px;
-    background-size: 75%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    span {
-      display: none;
-    }
-  }
-    .npm {
-        background-size: 50%;
-    }
-
-    .YLD {
-        background-size: 35%;
-    }
-
-}
-.sponsors-table {
-  tr {
-    td {
-      font-weight: normal;
-      font-size: 16px;
-      color: $dark;
-      padding: 5px;
+    a, b{
+          font-size: 0.7rem;
     }
   }
 }
-@media(max-width:1000px) {
-  .logo {
-    min-width: 205px!important;
-    margin-bottom: 0.2em;
-  }
-}
+
+
+
+
+
 @media(max-width:767px) {
-  .speaker-portrait {
-    width: 35%!important;
-  }
+
   .footer-right,
   .footer-left {
     text-align: center!important;
@@ -259,53 +250,25 @@ table {
     padding: 0;
   }
   .banner {
-    background-color: $lightGray;
+
     padding: 1.2em;
   }
   .logo {
     margin-bottom: 0;
   }
-  .conf-title,
-  .venue-location {
-    color: $dark;
-  }
-  .header a.btn, .schedule a.btn{
-    padding: 0.5rem 0.6rem;
-    font-size: 1.2em;
-  }
-  #map {
-    height:200px!important;
-  }
 
-}
-.coc {
-  font-size: 1.2em;
-}
-.trainer-portrait {
-  width: 100%;
-}
-.workshop-title {
-    color:$green;
-}
-.sponsor-card {
-    background-color: $lightGray;
-    -webkit-filter:grayscale(100%);
-            filter:grayscale(100%);
-     -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-    margin-bottom: 1.5em;
-}
-.sponsor-card:hover {
-    -webkit-filter:grayscale(0%);
-            filter:grayscale(0%);
-}
-#map {
-    height: 475px;
-    width:auto;
-}
-.nodeconf-photo {
-  background: url("/assets/img/nodeconfbcn.jpeg") no-repeat center center fixed;
-  background-position: center center;
-  background-size: cover;
-  height:250px;
+
+
+  .header-title {
+    font-size: 1.4em !important;
+    margin-top: 30px;
+    color: $main;
+
+
+  }
+  .venue-location {
+
+    margin-top:-20px;
+
+  }
 }
