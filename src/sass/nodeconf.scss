@@ -17,7 +17,9 @@ a {
   text-decoration: none;
 }
 
-
+ul, li {
+  list-style: none;
+}
 
 .header {
   background: linear-gradient(318deg, #fdbf61, #f5a16f, rgb(255, 163, 102), #ffa37f, #ff7f7f, #ef9351, #ffa37f, #d098af, #fbae94, #ffb94f, #ffcc66, #ff7f7f, #d8a0bc);
