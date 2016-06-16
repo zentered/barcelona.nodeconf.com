@@ -1,0 +1,351 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+html,
+body {
+  margin: 0;
+  font-family: Source Sans Pro;
+  font-size: 1.2em;
+  font-weight: 300;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.header {
+  background: #222 url("/assets/img/bg-full.svg") no-repeat center center fixed;
+  background-position: center center;
+  background-size: cover;
+  color: #222;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 550px;
+}
+
+.header a {
+  font-weight: 600;
+}
+
+.conf-title {
+  margin-top: 0;
+}
+
+.banner {
+  color: #222;
+  background-color: #ffffff;
+  height: 550px;
+  padding: 1em;
+}
+
+.logo {
+  width: 245px;
+  max-width: 50%;
+  margin-top: -1.8em;
+}
+
+.header a.btn:hover {
+  text-decoration: none;
+}
+
+.header a.btn {
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  font-size: 1.6em;
+  margin-bottom: 0.67em;
+  background-color: #269972;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.header a.btn:hover {
+  background-color: #1e7a5b;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 800;
+  font-size: 1.6em;
+  background-color: #269972;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.btn-section {
+  margin-top: 1em;
+}
+
+.btn:hover {
+  text-decoration: none;
+  background-color: #1e7a5b;
+  color: #ffffff;
+}
+
+.venue {
+  background-color: #eee;
+}
+
+.venue-location {
+  font-weight: 400;
+}
+
+a {
+  color: #269972;
+  text-decoration: none;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2em;
+}
+
+.teaser {
+  background-color: #269972;
+  font-size: 0.7em;
+  color: #ffffff;
+}
+
+.teaser a {
+  color: #ffffff;
+}
+
+.introduction {
+  font-size: 1em;
+}
+
+.venue-features {
+  font-size: 0.9em;
+  padding-left: 2em;
+  color: #269972;
+}
+
+.col-explanation a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.feature {
+  float: left;
+  display: inline;
+  color: #269972;
+  font-weight: 400;
+}
+
+footer {
+  background-color: #222;
+  color: #ffffff;
+}
+
+footer .logo-footer-bcnjs {
+  width: 100px;
+}
+
+footer .logo-footer-nodeconf {
+  width: 250px;
+}
+
+footer .footer-right {
+  text-align: right;
+}
+
+footer .footer-left {
+  text-align: left;
+}
+
+.speaker {
+  float: left;
+  padding-top: 1.5em;
+  padding-bottom: 0.5em;
+}
+
+.speaker .speaker-portrait {
+  border-radius: 50%;
+  width: 55%;
+}
+
+.speaker .speaker-name {
+  color: #269972;
+}
+
+.speaker .speaker-talk {
+  font-size: 0.7em;
+  color: #269972;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.speaker .speaker-talk:hover {
+  color: #222;
+}
+
+.speaker a {
+  color: #269972;
+  font-weight: 600;
+}
+
+.speakers {
+  background-color: #ffffff;
+}
+
+.schedule {
+  background-color: #eee;
+}
+
+.schedule .schedule-table {
+  float: left;
+}
+
+.schedule .schedule-table-workshop {
+  color: #222;
+  font-weight: normal;
+}
+
+.workshop .schedule-date {
+  padding-bottom: 0.8em !important;
+}
+
+.workshop h4 {
+  margin-top: 0;
+}
+
+tbody th {
+  color: #222;
+  font-weight: 400;
+  text-align: left;
+  width: 125px;
+  padding-right: 1em;
+}
+
+tbody td {
+  text-align: left;
+  padding-left: 1em;
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+thead td {
+  font-weight: 800;
+  text-align: left;
+  color: #222;
+  padding-bottom: 1em !important;
+}
+
+table {
+  width: 100%;
+  border: none;
+  color: #269972;
+  font-weight: 400;
+  padding-bottom: 1em;
+}
+
+.sponsors .sponsor {
+  display: block;
+  height: 200px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sponsors .sponsor span {
+  display: none;
+}
+
+.sponsors .npm {
+  background-size: 50%;
+}
+
+.sponsors .YLD {
+  background-size: 35%;
+}
+
+.sponsors-table tr td {
+  font-weight: normal;
+  font-size: 16px;
+  color: #222;
+  padding: 5px;
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    min-width: 205px !important;
+    margin-bottom: 0.2em;
+  }
+}
+
+@media (max-width: 767px) {
+  .speaker-portrait {
+    width: 35% !important;
+  }
+  .footer-right,
+  .footer-left {
+    text-align: center !important;
+  }
+  .conf-title {
+    font-size: 1.3em;
+  }
+  .header {
+    padding: 0;
+  }
+  .banner {
+    background-color: #eee;
+    padding: 1.2em;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  .conf-title,
+  .venue-location {
+    color: #222;
+  }
+  .header a.btn, .schedule a.btn {
+    padding: 0.5rem 0.6rem;
+    font-size: 1.2em;
+  }
+  #map {
+    height: 200px !important;
+  }
+}
+
+.coc {
+  font-size: 1.2em;
+}
+
+.trainer-portrait {
+  width: 100%;
+}
+
+.workshop-title {
+  color: #269972;
+}
+
+.sponsor-card {
+  background-color: #eee;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  margin-bottom: 1.5em;
+}
+
+.sponsor-card:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+#map {
+  height: 475px;
+  width: auto;
+}
+
+.nodeconf-photo {
+  background: url("/assets/img/nodeconfbcn.jpeg") no-repeat center center fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 250px;
+}
