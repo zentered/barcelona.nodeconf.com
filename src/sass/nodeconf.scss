@@ -30,7 +30,6 @@ ul, li {
   padding: 0;
   margin: 0;
   text-align: center;
-  padding-bottom:200px;
 
   a {
     font-weight: 500;
@@ -70,11 +69,18 @@ ul, li {
 .wrapper {
   color: $dark;
   padding: 1em;
-  margin:auto;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 500px;
 }
 
 .wrap {
-  height:215px;
+  //height:215px;
   margin: 0 auto;
   padding: 2em;
 }
@@ -83,7 +89,6 @@ ul, li {
   max-width: 300px;
   img {
     max-width: 250px;
-    margin-top: 108px;
     position: relative;
   }
 
@@ -91,7 +96,7 @@ ul, li {
     background-image: url("/assets/img/sun@2x.png");
     position: absolute;
     left: 50%;
-    top: 256px;
+    margin-top: 125px;
     max-width: 440px;
     -webkit-transform: translate(-50%, -50%);
       -moz-transform: translate(-50%, -50%);
@@ -243,7 +248,10 @@ footer {
 
   .footer-right,
   .footer-left {
-    text-align: center!important;
+    text-align: center  !important;
+  }
+  ul {
+    padding: 0;
   }
   .conf-title {
     font-size: 1.3em;
