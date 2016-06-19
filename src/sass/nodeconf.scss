@@ -75,8 +75,8 @@ ul, li {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 500px;
-  height: 500px;
+  max-width: 550px;
+  max-height: 500px;
 }
 
 .wrap {
@@ -94,6 +94,7 @@ ul, li {
 
   &::before {
     background-image: url("/assets/img/sun@2x.png");
+    opacity: 0.9;
     position: absolute;
     left: 50%;
     margin-top: 125px;
@@ -150,37 +151,34 @@ ul, li {
 
 
 a.button {
-  //- FONT
+
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  //- BLOCK
+
   display: inline-block;
   padding: 20px 30px;
   position: relative;
   z-index: 1;
-  //- EFFECTS
+
   overflow: hidden;
   transition: all 1s cubic-bezier(0.65,0.6,0.2,4);
 
   &:before, &:after {
 
-    //- POSITION
+
     position: absolute;
-    //- BLOCK
+
     content: '';
     display: block;
   }
 
   &:before{
-    //- POSITION
     top: -120px;
     left: 1150px;
     z-index: -1;
-    //- BLOCK
     width: calc(100% + 140px);
     height: 100px;
-    //- EFFECTS
     transition: all 1s cubic-bezier(0.25,0.1,0.2,1);
     transform: skew(0deg);
     background: #ff936e;
@@ -188,14 +186,11 @@ a.button {
   }
 
   &:after {
-    //- POSITION
     top: 0;
     left: 0;
     z-index: -2;
-    //- BLOCK
     width: calc(100% - 2px);
     height: calc(100% - 2px);
-    //- EFFECTS
     background: #ff6631;
     border-radius: 3px;
 
@@ -204,6 +199,7 @@ a.button {
 
 
   &:hover{
+      border-radius: 3px;
     &:before {
       left: -50px;
       top: -20px;
