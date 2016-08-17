@@ -21,6 +21,10 @@ ul, li {
   list-style: none;
 }
 
+.page-wrap {
+  max-width: 1000px;
+  margin: auto;
+}
 .header {
   background: linear-gradient(318deg, #fdbf61, #f5a16f, rgb(255, 163, 102), #ffa37f, #ff7f7f, #ef9351, #ffa37f, #d098af, #fbae94, #ffb94f, #ffcc66, #ff7f7f, #d8a0bc);
   -moz-animation: SunsetGradient 101s linear infinite;
