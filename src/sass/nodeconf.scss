@@ -9,18 +9,27 @@ body {
   font-weight: 300;
   padding: 0;
   overflow-x: hidden;
+  color:$light;
   background: rgba(57, 30, 69, 1);
 }
 
+
 a {
-  color: #ff7f7f;
+  color: white;
   text-decoration: none;
 }
-
+a:hover {
+  color:#d69d9d;
+}
+h2, h4 {
+  color:white;
+}
 ul, li {
   list-style: none;
 }
-
+.text-center {
+  text-align: center;
+}
 .page-wrap {
   max-width: 1000px;
   margin: auto;
@@ -66,7 +75,7 @@ ul, li {
 
 .header-title {
   font-size: 1.8em !important;
-  margin-top: 30px;
+  margin-top: 40px;
   color: $main;
 }
 
@@ -158,7 +167,7 @@ a.button {
 
   text-decoration: none;
   color: #fff;
-  font-size: 16px;
+  font-size: 0.7em;
 
   display: inline-block;
   padding: 20px 30px;
@@ -170,9 +179,7 @@ a.button {
 
   &:before, &:after {
 
-
     position: absolute;
-
     content: '';
     display: block;
   }
@@ -198,7 +205,6 @@ a.button {
     background: #ff6631;
     border-radius: 3px;
 
-
   }
 
 
@@ -214,7 +220,60 @@ a.button {
 
 
 
+section {
+  padding-top:2em;
+  padding-bottom:2em;
+}
 
+//get there section
+section.get-there {
+  background: $darkBg;
+  h4 {
+  color: white;
+  }
+  em {
+    color:white;
+    font-style: normal;
+  }
+  p, li {
+    font-size: 0.8em;
+    color:$light;
+  }
+  #map {
+    margin-top:20px;
+  }
+}
+
+//sponsors-page
+
+#sponsors-page {
+    background: $darkBg;
+    p {
+      font-size: 0.7em;
+    }
+    .sponsors-table {
+      margin-bottom:2em;
+      tr {
+        td {
+          font-weight: normal;
+          font-size: 0.7em;
+          color: $light;
+          padding: 5px;
+          text-align:center;
+          &.text-center {
+            background-color: $main;
+          }
+        }
+        th {
+          color:white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: 0.8em;
+          background-color: $main;
+        }
+      }
+    }
+}
 
 // footer
 footer {
@@ -268,7 +327,12 @@ footer {
   }
 
 
-
+  .get-there {
+    padding-bottom:0;
+    .page-wrap {
+      text-align: center;
+    }
+  }
   .header-title {
     font-size: 1.4em !important;
     margin-top: 30px;

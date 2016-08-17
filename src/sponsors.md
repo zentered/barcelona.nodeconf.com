@@ -1,7 +1,7 @@
 ---
 layout: sponsors.html
 ---
-<section class="row">
+
   <div class="page-wrap">
 
     <h4>Thank you for your interest!</h4>
@@ -16,4 +16,3 @@ layout: sponsors.html
 
     <p>NodeConf Barcelona is the event that gets all node.js developers into a room for an entire day. It is an event to finally get to meet in person and is an opportunity for you to reach a strong technical audience as well as a great community of JavaScript enthusiasts.</p>
   </div>
-</section>
