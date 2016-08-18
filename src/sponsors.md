@@ -4,7 +4,7 @@ layout: sponsors.html
 
   <div class="page-wrap">
 
-    <h4>Thank you for your interest!</h4>
+    <h2>Thank you for your interest!</h2>
 
     <p>BarcelonaJS is a monthly event organised by the JavaScript community in Barcelona at the Mobile World Center in Barcelona.</p>
 

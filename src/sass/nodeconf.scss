@@ -10,7 +10,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   color:$light;
-  background: rgba(57, 30, 69, 1);
+  background: $main;
 }
 
 
@@ -26,6 +26,12 @@ h2, h4 {
 }
 ul, li {
   list-style: none;
+}
+.desktop {
+  display: block;
+}
+.mobile {
+  display:none;
 }
 .text-center {
   text-align: center;
@@ -76,7 +82,7 @@ ul, li {
 .header-title {
   font-size: 1.8em !important;
   margin-top: 40px;
-  color: $main;
+  color:#391e45;
 }
 
 .wrapper {
@@ -253,6 +259,9 @@ section.get-there {
     }
     .sponsors-table {
       margin-bottom:2em;
+
+        border:1px solid;
+
       tr {
         td {
           font-weight: normal;
@@ -260,8 +269,13 @@ section.get-there {
           color: $light;
           padding: 5px;
           text-align:center;
+          border-right: 1px solid;
+          border-top: 1px solid;
           &.text-center {
             background-color: $main;
+          }
+          &:last-child {
+            border-right: none;
           }
         }
         th {
@@ -272,12 +286,22 @@ section.get-there {
           background-color: $main;
         }
       }
+
+      tfoot {
+        tr {
+          td {
+            p {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
     }
 }
 
 // footer
 footer {
-  background-color: rgba(57, 30, 69, 0.9);
+  background-color: $main;
   color: $white;
 
   .logo-footer-bcnjs {
@@ -300,11 +324,48 @@ footer {
 }
 
 
+// shared style small screens
+@media(max-width:1024px) {
 
+  #sponsors-page {
+    .content {
+      padding:0 1em;
+    }
+  }
+}
 
+//tablet
+
+@media(max-width:991px) {
+  //get there section
+  .get-there {
+    padding-bottom:0;
+    .page-wrap {
+      text-align: center;
+    }
+    .table-responsive {
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  footer {
+    .page-wrap {
+      padding: 0 2em;
+    }
+  }
+}
+
+//mobile
 
 @media(max-width:767px) {
-
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: block;
+  }
   .footer-right,
   .footer-left {
     text-align: center  !important;
@@ -325,14 +386,6 @@ footer {
   .logo {
     margin-bottom: 0;
   }
-
-
-  .get-there {
-    padding-bottom:0;
-    .page-wrap {
-      text-align: center;
-    }
-  }
   .header-title {
     font-size: 1.4em !important;
     margin-top: 30px;
@@ -344,5 +397,29 @@ footer {
 
     margin-top:-20px;
 
+  }
+  //get there section
+  .get-there {
+    padding-bottom:0;
+    .page-wrap {
+      text-align: center;
+    }
+  }
+
+  //sponsors page
+
+  #sponsors-page {
+    .content {
+      padding:0 1em;
+    }
+    .table-responsive {
+      p {
+        text-align: center;
+        padding: 0 2em;
+      }
+    }
+    .sponsors-table {
+      width:100%;
+    }
   }
 }
