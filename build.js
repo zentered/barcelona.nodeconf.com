@@ -11,7 +11,7 @@ Metalsmith(__dirname)
   .source('src/')
   .destination('./build')
   .use(metadata({
-    "speakers": './data/speakers.json'
+    "speakers": './data/speakers.json' 
   })
   .use(permalinks({
     pattern: ':collection/:title'

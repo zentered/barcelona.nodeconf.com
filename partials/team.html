@@ -1,0 +1,19 @@
+<section id="team">
+  <div class="page-wrap">
+    <h4>TEAM</h4>
+    <div class="row">
+
+    {{#each team}}
+      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+        <div class="hex-wrap">
+          <div class="bg-img" style="background-image:url(/assets/img/team/{{portrait}})">
+          </div>
+        </div>
+
+        <a href="https://twitter.com/{{twitter}}"><p> {{name}} </p></a>
+      </div>
+    {{/each}}
+
+    </div>
+  </div>
+</section>

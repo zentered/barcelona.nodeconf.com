@@ -15,6 +15,7 @@ Metalsmith(__dirname)
   }))
   .use(metadata({
     speakers: 'data/speakers.json',
+    team: 'data/team.json',
     sponsors: 'data/sponsors.json'
   }))
   .use(markdown())
