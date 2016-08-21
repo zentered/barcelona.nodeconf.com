@@ -48,7 +48,6 @@ ul, li {
   animation: SunsetGradient 101s linear infinite;
   background-size: 1000% 1000%;
   padding: 0;
-  margin: 0;
   text-align: center;
 
   a {
@@ -347,6 +346,7 @@ section#team {
 footer {
   background-color: $main;
   color: $white;
+  margin: 0 0 1em 0;
 
   .logo-footer-bcnjs {
     width: 50px;
