@@ -20,11 +20,14 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "build": "node --harmony build.js",
-    "dev": "node --harmony serve.js"
+    "build": "node build.js",
+    "dev": "node serve.js",
+    "deploy": "node deploy.js",
+    "test": "tap tests/*-test.js"
   },
   "private": false,
   "devDependencies": {
+    "gh-pages": "^0.11.0",
     "handlebars": "^3.0.3",
     "metalsmith": "^2.0.1",
     "metalsmith-assets": "^0.1.0",
