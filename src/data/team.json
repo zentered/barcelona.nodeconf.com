@@ -1,33 +1,32 @@
 [
   {
-    "name":"@PatrickHeneise",
-    "twitter":"PatrickHeneise",
-    "portrait":"patrickheneise.jpg"
+    "name":"Fernando",
+    "twitter":"_fmcfm",
+    "portrait":"fernando.jpg"
   },
   {
-    "name":"@ifraixedes",
-    "twitter":"ifraixedes",
-    "portrait":"ivanfraixedes.jpg"
-  },
-  {
-    "name":"@OrestesCA",
-    "twitter":"OrestesCA",
-    "portrait":"orestes.jpeg"
-  },
-  {
-    "name":"@xescugc",
-    "twitter":"xescugc",
-    "portrait":"xescugc.png"
-  },
-  {
-    "name":"@xicombd",
+    "name":"Francesc",
     "twitter":"xicombd",
     "portrait":"xicombd.jpg"
   },
   {
-    "name":"@helenavicart",
+    "name":"Francisco",
+    "twitter":"xescugc",
+    "portrait":"xescugc.png"
+  },
+  {
+    "name":"Helena",
     "twitter":"helenavicart",
     "portrait":"helenavicart.jpg"
+  },
+  {
+    "name":"Ivan",
+    "twitter":"ifraixedes",
+    "portrait":"ivanfraixedes.jpg"
+  },
+  {
+    "name":"Patrick",
+    "twitter":"PatrickHeneise",
+    "portrait":"patrickheneise.jpg"
   }
-
 ]
