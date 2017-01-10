@@ -551,8 +551,11 @@ text-align: center;
 
     }
     .link-wrap {
-    text-align: right;
-    //float: right;
+      text-align: right;
+      iframe {
+        vertical-align: middle;
+        margin: 0 0 3px 20px;
+      }
     }
     a:first-of-type {
       margin-left:16px;
