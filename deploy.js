@@ -6,7 +6,7 @@ ghpages.publish(path.join(__dirname, 'build'), {
     name: 'Blended Deployments',
     enail: 'deployment@blended.io'
   },
-  repo: 'https://github.com/nodeconf/barcelona.git',
+  repo: `https://${process.env.GH_TOKEN}@github.com/nodeconf/barcelona.git`,
   branch: 'gh-pages'
 }, function (err) {
   if (err) {
