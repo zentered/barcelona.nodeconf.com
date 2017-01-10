@@ -16,9 +16,6 @@
   "bugs": {
     "url": "https://github.com/barcelonajs/nodeconf/issues"
   },
-  "engines": {
-    "node": ">=0.10"
-  },
   "scripts": {
     "build": "node build.js",
     "dev": "node serve.js",
