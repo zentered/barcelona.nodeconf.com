@@ -3,7 +3,7 @@ var path = require('path')
 
 ghpages.publish(path.join(__dirname, 'build'), {
   user: {
-    name: 'Blended Deployments',
+    name: 'Blended CI',
     enail: 'deployment@blended.io'
   },
   repo: `https://${process.env.GH_TOKEN}@github.com/nodeconf/barcelona.git`,
