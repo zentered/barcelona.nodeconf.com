@@ -567,6 +567,39 @@ text-align: center;
           font-size: 0.7rem;
     }
   }
+  .cookies {
+    display: none;
+    width: 100%;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    font-size: 13px;
+    a {
+      text-decoration: underline;
+    }
+    a, button {
+      display: inline-block;
+    }
+    button {
+      padding: 0;
+      margin: 0;
+      background: transparent;
+      border: none;
+      color: #fff;
+      float: right;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .container {
+      margin: 0 auto;
+    }
+    &.is-open {
+      display: block;
+    }
+  }
 }
 
 

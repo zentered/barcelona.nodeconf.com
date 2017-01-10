@@ -22,8 +22,36 @@ function closeMenu() {
   document.documentElement.style.overflow = "auto";
 }
 
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function closeCookies() {
+  document.getElementById('cookies').classList.remove("is-open");
+  setCookie('cookieOk', true, 365)
+}
+
+function getCookie(target){
+  var cookies = {}
+  var cookiesArr = document.cookie.split('; ')
+
+  for(i=cookiesArr.length-1; i>=0; i--){
+     var C = cookiesArr[i].split('=');
+     cookies[C[0]] = C[1];
+  }
+
+  return cookies[target]
+}
+
 window.onload = function() {
     document.getElementById('open-menu').addEventListener( 'click' , openMenu );
     document.getElementById('close-menu').addEventListener( 'click' , closeMenu );
+    document.getElementById('closeCookies').addEventListener( 'click' , closeCookies );
 
+    if (!getCookie('cookieOk')) {
+      document.getElementById('cookies').classList.add( 'is-open');
+    }
 }
