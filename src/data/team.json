@@ -1,5 +1,10 @@
 [
   {
+    "name":"Andrea",
+    "link": "https://twitter.com/dreamorosi",
+    "portrait":"andrea.jpg"
+  },
+  {
     "name": "Cristina",
     "link": "https://twitter.com/CristinaBosom",
     "portrait": "cristina.jpeg"
@@ -10,11 +15,6 @@
     "portrait":"fernando.jpg"
   },
   {
-    "name":"Francesc",
-    "link": "https://twitter.com/xescugc",
-    "portrait":"xescugc.png"
-  },
-  {
     "name":"Francisco",
     "link": "https://twitter.com/xicombd",
     "portrait":"xicombd.jpg"
@@ -23,11 +23,6 @@
     "name":"Helena",
     "link": "https://twitter.com/helenavicart",
     "portrait":"helenavicart.jpg"
-  },
-  {
-    "name":"Ivan",
-    "link": "https://twitter.com/ifraixedes",
-    "portrait":"ivanfraixedes.jpg"
   },
   {
     "name": "Miquel",
