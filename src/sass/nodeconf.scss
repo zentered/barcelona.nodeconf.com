@@ -457,10 +457,14 @@ section#team {
       font-size: 0.8em;
       line-height: 1.6em;
     }
+
+    .sponsors-table-wrapper {
+      overflow-x: auto;
+    }
+
     .sponsors-table {
       margin-bottom:2em;
-
-        border:1px solid;
+      border:1px solid;
 
       tr {
         td {
@@ -484,6 +488,14 @@ section#team {
           letter-spacing: 2px;
           font-size: 0.8em;
           background-color: $main;
+
+          h4 {
+            margin: 14px;
+          }
+
+          p {
+            font-size: 0.6em;
+          }
         }
       }
 
