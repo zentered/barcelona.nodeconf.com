@@ -1,32 +1,52 @@
 [
   {
+    "name": "Cristina",
+    "link": "https://twitter.com/CristinaBosom",
+    "portrait": "cristina.jpeg"
+  },
+  {
     "name":"Fernando",
-    "twitter":"_fmcfm",
+    "link":"https://github.com/fmmrtns",
     "portrait":"fernando.jpg"
   },
   {
     "name":"Francesc",
-    "twitter":"xescugc",
+    "link": "https://twitter.com/xescugc",
     "portrait":"xescugc.png"
   },
   {
     "name":"Francisco",
-    "twitter":"xicombd",
+    "link": "https://twitter.com/xicombd",
     "portrait":"xicombd.jpg"
   },
   {
     "name":"Helena",
-    "twitter":"helenavicart",
+    "link": "https://twitter.com/helenavicart",
     "portrait":"helenavicart.jpg"
   },
   {
     "name":"Ivan",
-    "twitter":"ifraixedes",
+    "link": "https://twitter.com/ifraixedes",
     "portrait":"ivanfraixedes.jpg"
   },
   {
+    "name": "Miquel",
+    "link": "https://twitter.com/darthmikesound",
+    "portrait": "miki.jpg"
+  },
+  {
+    "name": "Núria",
+    "link": "https://twitter.com/pincfloit",
+    "portrait": "nuria.jpg"
+  },
+  {
+    "name": "Sergio",
+    "link": "https://twitter.com/_sgimeno",
+    "portrait": "sgimeno.jpg"
+  },
+  {
     "name":"Patrick",
-    "twitter":"PatrickHeneise",
+    "link": "https://twitter.com/PatrickHeneise",
     "portrait":"patrickheneise.jpg"
   }
 ]
