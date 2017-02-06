@@ -63,7 +63,7 @@ ul, li {
     border-radius: 25px;
     position: absolute;
     bottom: 2em;
-    margin-left: 50%;
+    margin-left: 49%;
   }
   .scroll-down:before {
     content: '';
@@ -131,7 +131,6 @@ ul, li {
 }
 
 .wrap {
-  //height:215px;
   margin: 0 auto;
   padding: 2em;
 }
@@ -313,6 +312,7 @@ section {
   padding-top:2em;
   padding-bottom:2em;
 }
+
 //section event
 section#event {
   background: $darkBg;
@@ -409,7 +409,7 @@ section#sponsors {
 }
 //team section
 
-section#team {
+section#team, #speakers {
   text-align: center;
   background: $darkBg;
   .col-md-4 {
@@ -444,13 +444,27 @@ section#team {
     pointer-events: none;
   }
   p {
-    font-size:0.7em;
+    font-size:0.8em;
+    &.big-fontsize {
+      font-size: 1.2rem;
+    }
   }
 
 }
 
-//sponsors-page
+//speakers-page
+section#speakers {
+  p {
+    margin-top:0;
+    &.big-fontsize {
+      font-size: 1.2rem;
+      margin-top:.5rem;
+      margin-bottom:0;
+    }
+  }
+}
 
+//sponsors-page
 #sponsors-page {
     background: $darkBg;
     p {
