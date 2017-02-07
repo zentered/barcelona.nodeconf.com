@@ -3,17 +3,19 @@
     <h2>Team</h2>
     <div class="row">
 
-    {{#each team}}
-      <div class="col-md-4 col-sm-4 col-xs-6 text-center">
-        <div class="hex-wrap">
-          <div class="bg-img" style="background-image:url(/assets/img/team/{{portrait}})">
+      {{#each team}}
+        <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+          <div class="hex-wrap">
+            <div class="bg-img" style="background-image:url(/assets/img/team/{{portrait}})">
+            </div>
           </div>
+
+          <a href="{{link}}">
+            <p> {{name}} </p>
+          </a>
+
         </div>
-
-      <a href="{{link}}"><p> {{name}} </p></a>
-
-      </div>
-    {{/each}}
+      {{/each}}
 
     </div>
   </div>

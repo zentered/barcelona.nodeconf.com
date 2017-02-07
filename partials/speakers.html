@@ -6,12 +6,13 @@
     {{#each speakers}}
       <div class="col-md-4 col-sm-4 col-xs-6 text-center">
         <div class="hex-wrap">
-          <div class="bg-img" style="background-image:url(/assets/img/speakers/{{portrait}}.png)">
+          <div class="bg-img" style="background-image:url(/assets/img/speakers/{{portrait}})">
           </div>
         </div>
 
-      <a href="{{twitter}}"><p class="big-fontsize"> {{name}} </p></a>
-      <p> {{talk}} </p>
+      <a href="https://twitter.com/{{twitter}}"><h3 class="big-fontsize"> {{name}} </h3></a>
+      <p class="bio">{{bio}}</p>
+      <h4> {{talk}} </h4>
 
       </div>
     {{/each}}

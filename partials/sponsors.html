@@ -3,18 +3,19 @@
     <h2>Sponsors</h2>
     <div class="row center-xs">
 
-    {{#each sponsors}}
-      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-        <a href="{{url}}"><div class="hex-wrap">
-          <div class="bg-img" style="background-image:url(/assets/img/{{logo}})">
-          </div>
+      {{#each sponsors}}
+        <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+          <a href="{{url}}">
+            <div class="hex-wrap">
+              <div class="bg-img" style="background-image:url(/assets/img/{{logo}})">
+              </div>
+            </div>
+          </a>
         </div>
-      </a>
+      {{/each}}
+      <div class="col-xs-12">
+        <p>We're still looking for more amazing companies willing to support this event.</br><span> Sponsorship information can be found <a href="/sponsors.html">here</a>.</span></p>
       </div>
-    {{/each}}
-    <div class="col-xs-12">
-      <p>We're still looking for more amazing companies willing to support this event.</br><span> Sponsorship information can be found <a href="/sponsors.html">here</a>.</span></p>
-    </div>
     </div>
   </div>
 </section>

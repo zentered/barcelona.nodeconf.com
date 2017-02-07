@@ -28,7 +28,6 @@ h2, h4 {
 ul, li {
   list-style: none;
 }
-
 .desktop {
   display: block;
 }
@@ -371,6 +370,7 @@ section.get-there {
     width: auto;
     margin:0 auto;
     background-repeat: no-repeat;
+    background-position: center;
     border-radius: 3px;
     padding:20px;
     //border: 2px solid $main;
@@ -443,11 +443,17 @@ section#team, #speakers {
     z-index: 1;
     pointer-events: none;
   }
-  p {
+  p, h3, h4 {
     font-size:0.8em;
     &.big-fontsize {
       font-size: 1.2rem;
     }
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  p.bio {
+    font-size: 0.7em;
   }
 
 }
