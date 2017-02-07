@@ -12,7 +12,7 @@
     "twitter": "bengl",
     "github": "bengl",
     "portrait": "bryan.jpeg",
-    "bio": "Ottawan in SF. @nodejs at Intrinsic. previously Yahoo. Democracy-exempt.",
+    "bio": "Ottawan in SF. @nodejs at Intrinsic. previously Yahoo.",
     "talk": "Signet: Safely Curl Pipe Bash. No Seriously!",
     "abstract": "Signet is an answer to “How can we curl to bash with some measure of safety and authenticity?” taking a different approach from normal signatures. It’s meant to be an addon to existing package management tooling. It’s platform and language agnostic, and it’s made in node.js!"
   },
