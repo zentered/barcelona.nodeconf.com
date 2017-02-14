@@ -15,5 +15,5 @@ before_script:
 after_success:
   - npm run-script deploy
 branches:
-  except:
-    - /^v\d+\.\d+\.\d+$/
+  only:
+  - master
