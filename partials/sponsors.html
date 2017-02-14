@@ -1,15 +1,14 @@
 <section id="sponsors">
   <div class="page-wrap">
     <h2>Sponsors</h2>
+    <div class="event-host row center-xs">
+      <img class="sponsor-img" src="/assets/img/sponsors/horizontal_MWC_white.jpg" alt="Mobile World Centre">
+    </div>
     <div class="row center-xs">
-
       {{#each sponsors}}
         <div class="col-md-4 col-sm-4 col-xs-12 text-center">
           <a href="{{url}}">
-            <div class="hex-wrap">
-              <div class="bg-img" style="background-image:url(/assets/img/{{logo}})">
-              </div>
-            </div>
+            <img class="sponsor-img" src="/assets/img/sponsors/{{logo}}" alt="{{title}}">
           </a>
         </div>
       {{/each}}

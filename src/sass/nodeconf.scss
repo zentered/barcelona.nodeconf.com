@@ -395,16 +395,13 @@ section#sponsors {
       font-weight: 100;
     }
   }
-  .hex-wrap {
-    background: white;
-    border-radius: 2px;
-    .bg-img {
-      height:100px;
-      margin:0 auto;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: 50%;
-    }
+  .event-host {
+    margin-bottom: 40px;
+  }
+  .sponsor-img {
+    // max-height: 150px;
+    width: 100%;
+    margin-top: 40px;
   }
 }
 //team section

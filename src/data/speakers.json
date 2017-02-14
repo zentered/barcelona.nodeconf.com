@@ -1,27 +1,49 @@
 [{
-    "name": "Myles Borins",
-    "twitter": "MylesBorins",
-    "github": "mylesborins",
-    "portrait": "myles.jpeg",
-    "bio": "Artist, Musician, Developer, and Inventor. @nodejs CTC",
-    "talk": "Node.js Releases, how do they work?",
-    "abstract": "Node.js is growing up, and with that comes the responsibility of proper legacy support. As of Node.js Argon (v4.2.0) there is an official Long Term Support release cycle that lasts for 30 months!\n\nHow does a project moving at the pace of node maintain multiple release lines? How does a commit get backported? How is a release actually made?\nYou will learn all this and more on this weeks episode of \"Node.js Releases, how do they work?\".\nI work as a full time Node.js contributor for IBM. Currently I am one of the individuals in the trenches back porting commits. If you are using an LTS version of node, there is a decent likely hood that I released it.\n\nRelease management is a very interesting art, and I would love the opportunity to pull the curtains back a bit on the process of how code lands into a project like node, and the kind of edge cases created when wrangling such a repo."
-  },
-  {
-    "name": "Bryan English",
-    "twitter": "bengl",
-    "github": "bengl",
-    "portrait": "bryan.jpeg",
-    "bio": "Ottawan in SF. @nodejs at Intrinsic. previously Yahoo.",
-    "talk": "Signet: Safely Curl Pipe Bash. No Seriously!",
-    "abstract": "Signet is an answer to “How can we curl to bash with some measure of safety and authenticity?” taking a different approach from normal signatures. It’s meant to be an addon to existing package management tooling. It’s platform and language agnostic, and it’s made in node.js!"
-  },
-  {
-    "name": "William Kapke",
-    "twitter": "williamkapke",
-    "github": "williamkapke",
-    "portrait": "william.jpeg",
-    "bio": "Node.js Board of Directors, Consultant, node.green creator. Previously Tinder, MySpace",
-    "talk": "The Node.js Organization: Behind the scenes",
-    "abstract": "Node.js is one of the most active Organizations on GitHub. There are over 500 contributors working together to constantly crank out new versions and updates to existing ones. Hundreds of comments, issues, and pull requests are generated and resolved every month by a very diverse group of volunteers.\n\nSo, how do we pull it off?\n\nIn this talk, I will give a tour of The Node.js Foundation Committees, Working Groups, Teams and Github repositories. I'll explain why they exist, how they were created, who runs them... and how **you** can join in!"
-  }]
+	"name": "Anna Henningsen",
+	"twitter": "addaleax",
+	"github": "addaleax",
+	"portrait": "anna.jpeg",
+	"bio": "she/her",
+	"talk": "Node.js � Character Encodings",
+	"abstract": "Find out what happened the last time you encountered a stray ï»¿ in your text or what’s tricky when your user’s passwords contain special characters! Every developer has fallen over the tripwire that character encodings present, and Node.js has a couple of quirks of its own. This talk will explain the involved concepts on a beginner’s level and make sure you’ll understand everything you need to know."
+}, {
+	"name": "Bryan English",
+	"twitter": "bengl",
+	"github": "bengl",
+	"portrait": "bryan.jpeg",
+	"bio": "Ottawan in SF. @nodejs at Intrinsic. previously Yahoo.",
+	"talk": "Signet: Safely Curl Pipe Bash. No Seriously!",
+	"abstract": "Signet is an answer to “How can we curl to bash with some measure of safety and authenticity?” taking a different approach from normal signatures. It’s meant to be an addon to existing package management tooling. It’s platform and language agnostic, and it’s made in node.js!"
+}, {
+	"name": "Daniela Matos de Carvalho",
+	"twitter": "sericaia",
+	"github": "sericaia",
+	"portrait": "daniela.jpeg",
+	"bio": "Full-stack Developer @YLDio, @hapijs lead maintainer",
+	"talk": "Let’s play with HTTP/2",
+	"abstract": "This talk aims to explain how HTTP/2 works: understand the new features that the protocol has in comparison with HTTP/1.x, and what developers will need to take into consideration when implementing it. We’re going to learn by doing it, and I’ll demonstrate how to debug a TLS connection and show some examples on how to implement a NodeJS server."
+}, {
+	"name": "Logan McDonald",
+	"twitter": "loganmeetsworld",
+	"github": "loganmeetsworld",
+	"portrait": "logan.jpeg",
+	"bio": "Ops Engineer @kickstarter. Previously writing software @chef & @Ada-C4.",
+	"talk": "Using Node in a serverless world…",
+	"abstract": "Node can be a great ally to any ops engineer. This talk will dive into AWS lambdas, a.k.a serverless functions and show how Node can be used to build a small application running on AWS Lambda with the help of the a new deployment model called SAM (AWS Serverless Application Model). We will also discuss testing (with Mocha and Chai) as well as moving towards purely functional javascript and some of its concepts (immutability and point-free programming)."
+}, {
+	"name": "Myles Borins",
+	"twitter": "MylesBorins",
+	"github": "mylesborins",
+	"portrait": "myles.jpeg",
+	"bio": "Artist, Musician, Developer, and Inventor. @nodejs CTC",
+	"talk": "Node.js Releases, how do they work?",
+	"abstract": "Node.js is growing up, and with that comes the responsibility of proper legacy support. As of Node.js Argon (v4.2.0) there is an official Long Term Support release cycle that lasts for 30 months!\n\nHow does a project moving at the pace of node maintain multiple release lines? How does a commit get backported? How is a release actually made?\nYou will learn all this and more on this weeks episode of \"Node.js Releases, how do they work?\".\nI work as a full time Node.js contributor for IBM. Currently I am one of the individuals in the trenches back porting commits. If you are using an LTS version of node, there is a decent likely hood that I released it.\n\nRelease management is a very interesting art, and I would love the opportunity to pull the curtains back a bit on the process of how code lands into a project like node, and the kind of edge cases created when wrangling such a repo."
+}, {
+	"name": "William Kapke",
+	"twitter": "williamkapke",
+	"github": "williamkapke",
+	"portrait": "william.jpeg",
+	"bio": "Node.js Board of Directors, Consultant, node.green creator. Previously Tinder, MySpace",
+	"talk": "The Node.js Organization: Behind the scenes",
+	"abstract": "Node.js is one of the most active Organizations on GitHub. There are over 500 contributors working together to constantly crank out new versions and updates to existing ones. Hundreds of comments, issues, and pull requests are generated and resolved every month by a very diverse group of volunteers.\n\nSo, how do we pull it off?\n\nIn this talk, I will give a tour of The Node.js Foundation Committees, Working Groups, Teams and Github repositories. I'll explain why they exist, how they were created, who runs them... and how **you** can join in!"
+}]
