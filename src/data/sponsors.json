@@ -1,6 +1,16 @@
-
-[{
-  "title": "Kickstarter",
-  "logo": "kickstarter-logo-dark.png",
-  "url": "https://www.kickstarter.com/"
-  }]
+{
+  "combo": [],
+  "async": [{
+      "title": "Kickstarter",
+      "logo": "kickstarter-logo-dark.png",
+      "url": "https://www.kickstarter.com/"
+    },
+    {
+      "title": "YLD",
+      "logo": "yld.png",
+      "url": "https://www.yld.io"
+    }
+  ],
+  "sync": [],
+  "startup": []
+}
