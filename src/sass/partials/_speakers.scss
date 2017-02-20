@@ -14,7 +14,7 @@
   }
   .hex-wrap {
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   .img {
     height: 220px;
@@ -23,18 +23,9 @@
     background-repeat: no-repeat;
     background-position: 5px;
     mix-blend-mode: luminosity;
-    -webkit-transition: 3ms all ease-in-out;
-    -moz-transition: 3ms all ease-in-out;
-    -o-transition: 3ms all ease-in-out;
-    -ms-transition: 3ms all ease-in-out;
-    transition: 3ms all ease-in-out;
+
     &:hover {
-      mix-blend-mode: normal;
-      transition: 3ms all ease-in-out;
-      -webkit-transition: 3ms all ease-in-out;
-      -moz-transition: 3ms all ease-in-out;
-      -o-transition: 3ms all ease-in-out;
-      -ms-transition: 3ms all ease-in-out;
+      mix-blend-mode: normal;  
     }
   }
   .hex-wrap::after {

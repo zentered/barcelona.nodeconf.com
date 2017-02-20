@@ -2,7 +2,8 @@
 @import 'partials/_event.scss';
 @import 'partials/_speakers.scss';
 @import 'partials/_sponsors.scss';
-
+@import 'partials/_getthere.scss';
+@import 'partials/_team.scss';
 
 
 
@@ -18,8 +19,6 @@ body {
   color:$light;
   background: $main;
 }
-
-
 a {
   color: white;
   text-decoration: none;
@@ -321,106 +320,6 @@ section {
   }
 }
 
-//get there section
-section.get-there {
-  background: $main;
-  h4 {
-  color: white;
-  //text-align: center;
-  }
-  em {
-    color:white;
-    font-style: normal;
-  }
-  p, li {
-    //font-size: 0.7em;
-    color:$light;
-  }
-  #map {
-    margin-top:20px;
-  }
-}
-
-//venue-location
-#venue-location {
-
-  margin-top:2em;
-  .hex-wrap {
-    position:relative;
-
-  }
-  .bg-img {
-    height: 150px;
-    width: auto;
-    margin:0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 3px;
-    padding:20px;
-    //border: 2px solid $main;
-    &.big {
-      width:100%;
-      height:250px;
-    }
-  }
-
-}
-
-//team section
-
-section#team {
-  text-align: center;
-  background: $darkBg;
-  .col-md-4 {
-    margin-bottom:40px;
-  }
-
-  .hex-wrap {
-    position:relative;
-  }
-  .bg-img {
-    height: 150px;
-    width: 150px;
-    margin:0 auto;
-    background-repeat: no-repeat;
-    background-position: 5px;
-
-  }
-  .hex-wrap::after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background-image: url("/assets/img/hex-mask1.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    z-index: 1;
-    pointer-events: none;
-  }
-  p, h3, h4 {
-    font-size:0.8em;
-    &.big-fontsize {
-      font-size: 1.2rem;
-    }
-  }
-  h3 {
-    margin-bottom: 0;
-  }
-  p.bio {
-    font-size: 0.7em;
-  }
-
-}
-
-
-
-
-
 //code of conduct
 #code-conduct {
   hr {
@@ -459,7 +358,7 @@ footer {
   .contact {
 
     background: #0a060c;
-text-align: center;
+    text-align: center;
     h6, a {
       display: inline-block;
       margin:auto;
@@ -621,42 +520,9 @@ text-align: center;
     }
   }
 
-  //get there section
-  .get-there {
-    padding-bottom:0;
-    .page-wrap {
-      text-align: center;
-    }
-    .table-responsive {
-      p {
-        text-align: center;
-      }
-    }
-  }
-  #venue-location {
-    .col-xs-6 {
-      margin-bottom: 20px;
-      margin-right: 15px;
-      margin-left: 15px;
-
-    }
-  }
-
   .page-wrap {
     text-align: center;
   }
-  section#team {
-      .bg-img {
-        height:120px !important;
-        width:120px !important;
-      }
-
-      .col-md-4 {
-        margin-bottom:20px !important;
-      }
-
-  }
-
   footer {
     .page-wrap {
       padding: 0 2em;
@@ -665,7 +531,6 @@ text-align: center;
 }
 
 //mobile
-
 @media(max-width:767px) {
   .desktop {
     display: none !important;
@@ -692,7 +557,7 @@ text-align: center;
   }
   .logo {
     img {
-        max-width:185px;
+      max-width:185px;
     }
     margin-bottom: 0;
 
@@ -704,21 +569,8 @@ text-align: center;
   .header-title {
     font-size: 1.4em !important;
     margin-top: 30px;
-    //color: $main;
-
-
   }
   .venue-location {
-
     margin-top:-20px;
-
   }
-    //get there section
-  .get-there {
-    padding-bottom:0;
-    .page-wrap {
-      text-align: center;
-    }
-  }
-
 }
