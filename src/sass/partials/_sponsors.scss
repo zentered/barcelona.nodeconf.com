@@ -1,0 +1,131 @@
+//sponsors section
+section#sponsors {
+  background: $darkBg;
+  text-align: center;
+  a.button.sponsors {
+    &:after{
+      background: $main !important;
+    }
+    &:before {
+      background: $light !important;
+    }
+    &:hover {
+      &:before {
+        background: $light !important;
+      }
+      &:after{
+        background: $main !important;
+      }
+    }
+  }
+  p {
+    //font-size: 0.8em;
+    font-weight: 700;
+    margin-bottom:40px;
+    margin-top: 0px;
+    span {
+      color:white;
+      font-size:0.8em;
+      font-weight: 100;
+    }
+  }
+  .event-host {
+    margin-bottom: 40px;
+    .sponsor-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .col-xs-3 {
+    .sponsor-img {
+      margin-top:2em;
+      max-width: 100%;
+      width: auto;
+      height: auto;
+    }
+  }
+  .row {
+    margin-bottom:2em;
+  }
+}
+
+
+//sponsors-page [layouts/sponsors.html]
+#sponsors-page {
+    background: $darkBg;
+    p {
+      font-size: 0.8em;
+      line-height: 1.6em;
+    }
+
+    .sponsors-table-wrapper {
+      overflow-x: auto;
+    }
+
+    .sponsors-table {
+      margin-bottom:2em;
+      border:1px solid;
+
+      tr {
+        td {
+          font-weight: normal;
+          font-size: 0.7em;
+          color: $light;
+          padding: 5px;
+          text-align:center;
+          border-right: 1px solid;
+          border-top: 1px solid;
+          &.text-center {
+            background-color: $main;
+          }
+          &:last-child {
+            border-right: none;
+          }
+        }
+        th {
+          color:white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: 0.8em;
+          background-color: $main;
+
+          h4 {
+            margin: 14px;
+          }
+
+          p {
+            font-size: 0.6em;
+          }
+        }
+      }
+
+      tfoot {
+        tr {
+          td {
+            p {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+  @media(max-width:1024px) {
+    .content {
+      padding:0 1em;
+    }
+  }
+  @media(max-width:767px) {
+    .content {
+      padding:0 1em;
+    }
+    .table-responsive {
+      p {
+        text-align: center;
+        padding: 0 2em;
+      }
+    }
+    .sponsors-table {
+      width:100%;
+    }
+  }
+}

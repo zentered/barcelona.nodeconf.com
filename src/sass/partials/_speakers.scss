@@ -1,0 +1,134 @@
+#speakers {
+  text-align: center;
+  background: $main;
+  .col-md-4 {
+    margin-bottom:40px;
+  }
+  p {
+    margin-top:0;
+    &.big-fontsize {
+      font-size: 1.2rem;
+      margin-top:.5rem;
+      margin-bottom:0;
+    }
+  }
+  .hex-wrap {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .img {
+    height: 220px;
+    width: 220px;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-position: 5px;
+    mix-blend-mode: luminosity;
+    -webkit-transition: 3ms all ease-in-out;
+    -moz-transition: 3ms all ease-in-out;
+    -o-transition: 3ms all ease-in-out;
+    -ms-transition: 3ms all ease-in-out;
+    transition: 3ms all ease-in-out;
+    &:hover {
+      mix-blend-mode: normal;
+      transition: 3ms all ease-in-out;
+      -webkit-transition: 3ms all ease-in-out;
+      -moz-transition: 3ms all ease-in-out;
+      -o-transition: 3ms all ease-in-out;
+      -ms-transition: 3ms all ease-in-out;
+    }
+  }
+  .hex-wrap::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 97%;
+    content: '';
+    background-image: url("/assets/img/hex-mask-dark.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    z-index: 1;
+    pointer-events: none;
+  }
+  p, h3, h4 {
+    font-size:0.8em;
+    &.big-fontsize {
+      font-size: 1.2rem;
+    }
+  }
+  h3 {
+    margin-bottom: 0;
+  }
+  p.bio {
+    font-size: 0.7em;
+    height:50px;
+  }
+
+  h4 {
+    letter-spacing: 1px;
+  }
+
+}
+//sponsors-page [layouts/sponsors.html]
+#sponsors-page {
+    background: $darkBg;
+    p {
+      font-size: 0.8em;
+      line-height: 1.6em;
+    }
+
+    .sponsors-table-wrapper {
+      overflow-x: auto;
+    }
+
+    .sponsors-table {
+      margin-bottom:2em;
+      border:1px solid;
+
+      tr {
+        td {
+          font-weight: normal;
+          font-size: 0.7em;
+          color: $light;
+          padding: 5px;
+          text-align:center;
+          border-right: 1px solid;
+          border-top: 1px solid;
+          &.text-center {
+            background-color: $main;
+          }
+          &:last-child {
+            border-right: none;
+          }
+        }
+        th {
+          color:white;
+          text-transform: uppercase;
+          letter-spacing: 2px;
+          font-size: 0.8em;
+          background-color: $main;
+
+          h4 {
+            margin: 14px;
+          }
+
+          p {
+            font-size: 0.6em;
+          }
+        }
+      }
+
+      tfoot {
+        tr {
+          td {
+            p {
+              font-size: 0.9em;
+            }
+          }
+        }
+      }
+    }
+}

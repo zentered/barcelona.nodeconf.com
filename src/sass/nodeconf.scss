@@ -1,4 +1,10 @@
 @import 'partials/_vars.scss';
+@import 'partials/_event.scss';
+@import 'partials/_speakers.scss';
+@import 'partials/_sponsors.scss';
+
+
+
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700);
 html,
@@ -310,33 +316,11 @@ a.button {
 section {
   padding-top:2em;
   padding-bottom:2em;
-}
-
-//section event
-section#event {
-  background: $darkBg;
-  overflow: hidden;
-  .col-md-6{
-    display:inline-block;
-    float:left;
-    img {
-      height:300px;
-      width:auto;
-      float:right;
-      bottom: -108px;
-      position: relative;
-    }
-    &.col-md-6:last-child {
-      // clear:both;
-      // height:200px;
-      width: 100%;
-      position:absolute;
-      // background: url('/assets/img/bcn-fondo.png');
-      // background-repeat: no-repeat;
-
-    }
+  h2 {
+    padding-bottom: 1.5em;
   }
 }
+
 //get there section
 section.get-there {
   background: $main;
@@ -381,33 +365,10 @@ section.get-there {
   }
 
 }
-//sponsors
-section#sponsors {
-  background: $main;
-  text-align: center;
-  p {
-    //font-size: 0.8em;
-    font-weight: 700;
-    margin-top:40px;
-    span {
-      color:white;
-      font-size:0.8em;
-      font-weight: 100;
-    }
-  }
-  .event-host {
-    margin-bottom: 40px;
-  }
-  .sponsor-img {
-    // max-height: 150px;
-    max-width: 100%;
-    max-height: 250px;
-    margin-top: 40px;
-  }
-}
+
 //team section
 
-section#team, #speakers {
+section#team {
   text-align: center;
   background: $darkBg;
   .col-md-4 {
@@ -432,7 +393,7 @@ section#team, #speakers {
     width: 100%;
     height: 100%;
     content: '';
-    background-image: url("/assets/img/hex-mask.svg");
+    background-image: url("/assets/img/hex-mask1.svg");
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
@@ -456,78 +417,9 @@ section#team, #speakers {
 
 }
 
-//speakers-page
-section#speakers {
-  p {
-    margin-top:0;
-    &.big-fontsize {
-      font-size: 1.2rem;
-      margin-top:.5rem;
-      margin-bottom:0;
-    }
-  }
-}
 
-//sponsors-page
-#sponsors-page {
-    background: $darkBg;
-    p {
-      font-size: 0.8em;
-      line-height: 1.6em;
-    }
 
-    .sponsors-table-wrapper {
-      overflow-x: auto;
-    }
 
-    .sponsors-table {
-      margin-bottom:2em;
-      border:1px solid;
-
-      tr {
-        td {
-          font-weight: normal;
-          font-size: 0.7em;
-          color: $light;
-          padding: 5px;
-          text-align:center;
-          border-right: 1px solid;
-          border-top: 1px solid;
-          &.text-center {
-            background-color: $main;
-          }
-          &:last-child {
-            border-right: none;
-          }
-        }
-        th {
-          color:white;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          font-size: 0.8em;
-          background-color: $main;
-
-          h4 {
-            margin: 14px;
-          }
-
-          p {
-            font-size: 0.6em;
-          }
-        }
-      }
-
-      tfoot {
-        tr {
-          td {
-            p {
-              font-size: 0.9em;
-            }
-          }
-        }
-      }
-    }
-}
 
 //code of conduct
 #code-conduct {
@@ -642,15 +534,7 @@ text-align: center;
 }
 
 
-// shared style small screens
-@media(max-width:1024px) {
 
-  #sponsors-page {
-    .content {
-      padding:0 1em;
-    }
-  }
-}
 
 //tablet
 
@@ -677,6 +561,7 @@ text-align: center;
 
       }
       li.logo-wrap {
+        margin-left:20px;
         padding-left:20px;
         padding-right:20px;
         font-size:13px;
@@ -735,26 +620,7 @@ text-align: center;
       }
     }
   }
-  section#event {
-    .mobile {
-      display: block !important;
 
-    }
-    .desktop {
-      display:none;
-    }
-
-    .col-md-6 {
-      img {
-        min-width:300px;
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        bottom: -50px;
-        position: relative;
-      }
-    }
-  }
   //get there section
   .get-there {
     padding-bottom:0;
@@ -767,9 +633,7 @@ text-align: center;
       }
     }
   }
-#venue-location {
-
-
+  #venue-location {
     .col-xs-6 {
       margin-bottom: 20px;
       margin-right: 15px;
@@ -849,21 +713,6 @@ text-align: center;
     margin-top:-20px;
 
   }
-
-  //event section
-  section#event {
-    .col-md-6 {
-      img {
-        min-width:300px;
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        bottom: -50px;
-        position: relative;
-      }
-    }
-
-  }
     //get there section
   .get-there {
     padding-bottom:0;
@@ -872,20 +721,4 @@ text-align: center;
     }
   }
 
-
-  //sponsors page
-  #sponsors-page {
-    .content {
-      padding:0 1em;
-    }
-    .table-responsive {
-      p {
-        text-align: center;
-        padding: 0 2em;
-      }
-    }
-    .sponsors-table {
-      width:100%;
-    }
-  }
 }

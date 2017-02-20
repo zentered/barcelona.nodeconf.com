@@ -1,0 +1,46 @@
+//section event
+section#event {
+  background: $darkBg;
+  overflow: hidden;
+  padding-bottom: 0.5em;
+  h2 {
+    padding-bottom:0 !important; 
+  }
+  .col-md-6{
+    float:left;
+    display: inline-block;
+    img {
+      height:300px;
+      width:auto;
+      float:right;
+      bottom: -108px;
+      position: relative;
+    }
+    &.col-md-6:last-child {
+      width: 100%;
+      position:absolute;
+      @media(min-width:2180px) {
+        display:block;
+      }
+    }
+  }
+
+  @media(max-width:991px) {
+    .mobile {
+      display: block !important;
+    }
+    .desktop {
+      display:none;
+    }
+    .col-md-6 {
+      img {
+        min-width:300px;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        bottom: -50px;
+        position: relative;
+      }
+    }
+  }
+}

@@ -4,14 +4,14 @@
     <div class="row">
 
     {{#each speakers}}
-      <div class="col-md-4 col-sm-4 col-xs-6 text-center">
+      <div class="col-md-4 col-sm-4 col-xs-12 text-center">
         <div class="hex-wrap">
-          <div class="bg-img" style="background-image:url(/assets/img/speakers/{{portrait}})">
-          </div>
+          <img class="img" src="/assets/img/speakers/{{portrait}}" alt="">
         </div>
 
       <a href="https://twitter.com/{{twitter}}"><h3 class="big-fontsize"> {{name}} </h3></a>
       <p class="bio">{{bio}}</p>
+
       <h4> {{talk}} </h4>
 
       </div>
