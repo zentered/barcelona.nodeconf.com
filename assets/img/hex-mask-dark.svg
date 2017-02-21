@@ -5,12 +5,16 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="hex-mask" fill="#1E1123">
+        <g id="hex-mask-dark" fill="#2E1E36">
             <g id="Page-1">
                 <g id="hex-mask">
-                    <g id="Group">
-                        <polygon id="Shape" points="10.04775 37.5 75 0 0 0 0 150 75 150 10.04775 112.5"></polygon>
-                        <polygon id="Shape" points="75 0 139.95225 37.5 139.95225 112.5 75 150 150 150 150 0"></polygon>
+                    <g id="Page-1">
+                        <g id="hex-mask">
+                            <g id="Group">
+                                <polygon id="Shape" points="10.04775 37.5 75 0 0 0 0 150 75 150 10.04775 112.5"></polygon>
+                                <polygon id="Shape" points="75 0 139.95225 37.5 139.95225 112.5 75 150 150 150 150 0"></polygon>
+                            </g>
+                        </g>
                     </g>
                 </g>
             </g>

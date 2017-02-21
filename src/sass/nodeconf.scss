@@ -315,8 +315,13 @@ a.button {
 section {
   padding-top:2em;
   padding-bottom:2em;
+  img.icon {
+    height:100px;
+    width: auto;
+  }
   h2 {
     padding-bottom: 1.5em;
+    margin-top: 0;
   }
 }
 
