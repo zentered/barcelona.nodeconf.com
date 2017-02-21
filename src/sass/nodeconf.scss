@@ -261,7 +261,7 @@ a.button {
 
 //sticky header
 #header {
-  background: $main;
+  background: $black;
   height:45px;
   width:100%;
   z-index:2;
@@ -357,7 +357,7 @@ footer {
   }
   .contact {
 
-    background: #0a060c;
+    background: $black;
     text-align: center;
     h6, a {
       display: inline-block;
