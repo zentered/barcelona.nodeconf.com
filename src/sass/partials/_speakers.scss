@@ -50,25 +50,38 @@
     z-index: 1;
     pointer-events: none;
   }
-  p, h3, h4 {
+  p, h3, h4, h5 {
     font-size:0.8em;
     &.big-fontsize {
       font-size: 1.2rem;
     }
   }
-  h3 {
-    margin-bottom: 0;
+  a:hover{
+    text-decoration: underline;
+
+  }
+  .talk-title {
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 16px;
   }
   p.bio {
     font-size: 0.7em;
-    height:50px;
+    height: 52px;
   }
-
+  h5{
+    cursor: pointer;
+    font-size: 18px;
+  }
   h4 {
     letter-spacing: 1px;
     margin-top:0;
   }
-
+  h3{
+    margin: 2px;
+    color: #fefbff;
+    text-transform: uppercase;
+  }
   #close-box, #show-box {
     cursor:pointer;
   }
@@ -76,19 +89,24 @@
   .modal-box {
     width: 500px;
     height: auto;
-    position: absolute;
-    padding: 10px 20px;
+    position: fixed;
+    padding: 10px 20px 50px 20px;
     margin: 0 auto;
     display: none;
     background: $black;
     z-index: 3;
     left: 0;
+    top:10%;
     right: 0;
     p {
       font-size: 16px;
     }
     &.is-shown {
       display:block;
+      box-shadow: 0px 1px 1px 10000px rgba(0, 0, 0, 0.72);
+    }
+    @media(max-width:600px){
+      width: 80%;
     }
   }
 }
