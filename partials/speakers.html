@@ -6,29 +6,23 @@
 
     {{#each speakers}}
       <div class="col-md-4 col-sm-4 col-xs-12 text-center">
-        <div class="hex-wrap" id="show-modal">
+        <div class="hex-wrap" id="show-box">
           <img class="img" src="/assets/img/speakers/{{portrait}}" alt="">
         </div>
 
-      <a href="https://twitter.com/{{twitter}}"><h3 class="big-fontsize"> {{name}} </h3></a>
-      <p class="bio">{{bio}}</p>
-
-      <h4> {{talk}} </h4>
-
+        <a href="https://twitter.com/{{twitter}}"><h3 class="big-fontsize"> {{name}} </h3></a>
+        <p class="bio">{{bio}}</p>
+        <a href="https://github.com/{{github}}"> <span class="fa fa-github"></span> </a>
+        <h4> {{talk}} </h4>
       </div>
-      <div class="modal" id="modal">
-        <span class="fa fa-times"></span>
-        <div class="col-md-12">
-          <div class="hex-wrap">
-            <img class="img" src="/assets/img/speakers/{{portrait}}" alt="">
-          </div>
-          {{name}}
-          {{bio}}
-          <a href="https://github.com/{{github}}"> github </a>
+      <div class="modal-box modal-{{github}}" id="box">
+        <div class ="col-md-12">
+          <p>{{talk}}</p>
+          <p>{{abstract}}</p>
+          <a href="https://github.com/{{github}}"> <span class="fa fa-github"></span> </a>
         </div>
       </div>
     {{/each}}
-
     </div>
   </div>
 </section>

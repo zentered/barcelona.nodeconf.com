@@ -11,19 +11,18 @@ window.addEventListener('scroll', function(){
 });
 
 //show modal
-function openModal() {
-  document.getElementById('modal').classList.add("is-shown");
-  document.documentElement.style.overflow = "hidden";
+function openBox() {
+  document.getElementsByClassName('modal-box').classList.toggle("is-shown");
+  //document.documentElement.style.overflow = "hidden";
 }
+
 
 //open and close mobile menu
 function openMenu() {
-
   document.getElementById('menu').classList.add("is-open");
   document.documentElement.style.overflow = "hidden";
 }
 function closeMenu() {
-
   document.getElementById('menu').classList.remove("is-open");
   document.documentElement.style.overflow = "auto";
 }
@@ -53,9 +52,11 @@ function getCookie(target){
 }
 
 window.onload = function() {
-    document.getElementById('show-modal').addEventListener( 'click', openModal );
+
     document.getElementById('open-menu').addEventListener( 'click' , openMenu );
     document.getElementById('close-menu').addEventListener( 'click' , closeMenu );
+    document.getElementById('show-box').addEventListener( 'click' , openBox );
+
     document.getElementById('closeCookies').addEventListener( 'click' , closeCookies );
 
     if (!getCookie('cookieOk')) {
