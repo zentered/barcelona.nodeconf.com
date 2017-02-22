@@ -10,6 +10,12 @@ window.addEventListener('scroll', function(){
       }
 });
 
+//show modal
+function openModal() {
+  document.getElementById('modal').classList.add("is-shown");
+  document.documentElement.style.overflow = "hidden";
+}
+
 //open and close mobile menu
 function openMenu() {
 
@@ -47,6 +53,7 @@ function getCookie(target){
 }
 
 window.onload = function() {
+    document.getElementById('show-modal').addEventListener( 'click', openModal );
     document.getElementById('open-menu').addEventListener( 'click' , openMenu );
     document.getElementById('close-menu').addEventListener( 'click' , closeMenu );
     document.getElementById('closeCookies').addEventListener( 'click' , closeCookies );

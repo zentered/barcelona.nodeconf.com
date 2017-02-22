@@ -1,4 +1,11 @@
 @import 'partials/_vars.scss';
+@import 'partials/_event.scss';
+@import 'partials/_speakers.scss';
+@import 'partials/_sponsors.scss';
+@import 'partials/_getthere.scss';
+@import 'partials/_team.scss';
+
+
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700);
 html,
@@ -12,8 +19,6 @@ body {
   color:$light;
   background: $main;
 }
-
-
 a {
   color: white;
   text-decoration: none;
@@ -256,7 +261,7 @@ a.button {
 
 //sticky header
 #header {
-  background: $main;
+  background: $black;
   height:45px;
   width:100%;
   z-index:2;
@@ -310,223 +315,14 @@ a.button {
 section {
   padding-top:2em;
   padding-bottom:2em;
-}
-
-//section event
-section#event {
-  background: $darkBg;
-  overflow: hidden;
-  .col-md-6{
-    display:inline-block;
-    float:left;
-    img {
-      height:300px;
-      width:auto;
-      float:right;
-      bottom: -108px;
-      position: relative;
-    }
-    &.col-md-6:last-child {
-      // clear:both;
-      // height:200px;
-      width: 100%;
-      position:absolute;
-      // background: url('/assets/img/bcn-fondo.png');
-      // background-repeat: no-repeat;
-
-    }
-  }
-}
-//get there section
-section.get-there {
-  background: $main;
-  h4 {
-  color: white;
-  //text-align: center;
-  }
-  em {
-    color:white;
-    font-style: normal;
-  }
-  p, li {
-    //font-size: 0.7em;
-    color:$light;
-  }
-  #map {
-    margin-top:20px;
-  }
-}
-
-//venue-location
-#venue-location {
-
-  margin-top:2em;
-  .hex-wrap {
-    position:relative;
-
-  }
-  .bg-img {
-    height: 150px;
+  img.icon {
+    height:100px;
     width: auto;
-    margin:0 auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 3px;
-    padding:20px;
-    //border: 2px solid $main;
-    &.big {
-      width:100%;
-      height:250px;
-    }
   }
-
-}
-//sponsors
-section#sponsors {
-  background: $main;
-  text-align: center;
-  p {
-    //font-size: 0.8em;
-    font-weight: 700;
-    margin-top:40px;
-    span {
-      color:white;
-      font-size:0.8em;
-      font-weight: 100;
-    }
+  h2 {
+    padding-bottom: 1.5em;
+    margin-top: 0;
   }
-  .event-host {
-    margin-bottom: 40px;
-  }
-  .sponsor-img {
-    // max-height: 150px;
-    max-width: 100%;
-    max-height: 250px;
-    margin-top: 40px;
-  }
-}
-//team section
-
-section#team, #speakers {
-  text-align: center;
-  background: $darkBg;
-  .col-md-4 {
-    margin-bottom:40px;
-  }
-
-  .hex-wrap {
-    position:relative;
-  }
-  .bg-img {
-    height: 150px;
-    width: 150px;
-    margin:0 auto;
-    background-repeat: no-repeat;
-    background-position: 5px;
-
-  }
-  .hex-wrap::after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: '';
-    background-image: url("/assets/img/hex-mask.svg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    background-size: contain;
-    z-index: 1;
-    pointer-events: none;
-  }
-  p, h3, h4 {
-    font-size:0.8em;
-    &.big-fontsize {
-      font-size: 1.2rem;
-    }
-  }
-  h3 {
-    margin-bottom: 0;
-  }
-  p.bio {
-    font-size: 0.7em;
-  }
-
-}
-
-//speakers-page
-section#speakers {
-  p {
-    margin-top:0;
-    &.big-fontsize {
-      font-size: 1.2rem;
-      margin-top:.5rem;
-      margin-bottom:0;
-    }
-  }
-}
-
-//sponsors-page
-#sponsors-page {
-    background: $darkBg;
-    p {
-      font-size: 0.8em;
-      line-height: 1.6em;
-    }
-
-    .sponsors-table-wrapper {
-      overflow-x: auto;
-    }
-
-    .sponsors-table {
-      margin-bottom:2em;
-      border:1px solid;
-
-      tr {
-        td {
-          font-weight: normal;
-          font-size: 0.7em;
-          color: $light;
-          padding: 5px;
-          text-align:center;
-          border-right: 1px solid;
-          border-top: 1px solid;
-          &.text-center {
-            background-color: $main;
-          }
-          &:last-child {
-            border-right: none;
-          }
-        }
-        th {
-          color:white;
-          text-transform: uppercase;
-          letter-spacing: 2px;
-          font-size: 0.8em;
-          background-color: $main;
-
-          h4 {
-            margin: 14px;
-          }
-
-          p {
-            font-size: 0.6em;
-          }
-        }
-      }
-
-      tfoot {
-        tr {
-          td {
-            p {
-              font-size: 0.9em;
-            }
-          }
-        }
-      }
-    }
 }
 
 //code of conduct
@@ -566,8 +362,8 @@ footer {
   }
   .contact {
 
-    background: #0a060c;
-text-align: center;
+    background: $black;
+    text-align: center;
     h6, a {
       display: inline-block;
       margin:auto;
@@ -642,15 +438,7 @@ text-align: center;
 }
 
 
-// shared style small screens
-@media(max-width:1024px) {
 
-  #sponsors-page {
-    .content {
-      padding:0 1em;
-    }
-  }
-}
 
 //tablet
 
@@ -677,6 +465,7 @@ text-align: center;
 
       }
       li.logo-wrap {
+        margin-left:20px;
         padding-left:20px;
         padding-right:20px;
         font-size:13px;
@@ -735,64 +524,10 @@ text-align: center;
       }
     }
   }
-  section#event {
-    .mobile {
-      display: block !important;
-
-    }
-    .desktop {
-      display:none;
-    }
-
-    .col-md-6 {
-      img {
-        min-width:300px;
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        bottom: -50px;
-        position: relative;
-      }
-    }
-  }
-  //get there section
-  .get-there {
-    padding-bottom:0;
-    .page-wrap {
-      text-align: center;
-    }
-    .table-responsive {
-      p {
-        text-align: center;
-      }
-    }
-  }
-#venue-location {
-
-
-    .col-xs-6 {
-      margin-bottom: 20px;
-      margin-right: 15px;
-      margin-left: 15px;
-
-    }
-  }
 
   .page-wrap {
     text-align: center;
   }
-  section#team {
-      .bg-img {
-        height:120px !important;
-        width:120px !important;
-      }
-
-      .col-md-4 {
-        margin-bottom:20px !important;
-      }
-
-  }
-
   footer {
     .page-wrap {
       padding: 0 2em;
@@ -801,7 +536,6 @@ text-align: center;
 }
 
 //mobile
-
 @media(max-width:767px) {
   .desktop {
     display: none !important;
@@ -828,7 +562,7 @@ text-align: center;
   }
   .logo {
     img {
-        max-width:185px;
+      max-width:185px;
     }
     margin-bottom: 0;
 
@@ -840,52 +574,8 @@ text-align: center;
   .header-title {
     font-size: 1.4em !important;
     margin-top: 30px;
-    //color: $main;
-
-
   }
   .venue-location {
-
     margin-top:-20px;
-
-  }
-
-  //event section
-  section#event {
-    .col-md-6 {
-      img {
-        min-width:300px;
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        bottom: -50px;
-        position: relative;
-      }
-    }
-
-  }
-    //get there section
-  .get-there {
-    padding-bottom:0;
-    .page-wrap {
-      text-align: center;
-    }
-  }
-
-
-  //sponsors page
-  #sponsors-page {
-    .content {
-      padding:0 1em;
-    }
-    .table-responsive {
-      p {
-        text-align: center;
-        padding: 0 2em;
-      }
-    }
-    .sponsors-table {
-      width:100%;
-    }
   }
 }
