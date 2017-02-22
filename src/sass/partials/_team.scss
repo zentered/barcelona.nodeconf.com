@@ -11,15 +11,18 @@ section#team {
     position:relative;
   }
   .bg-img {
+    cursor:pointer;
     height: 150px;
     width: 150px;
     margin:0 auto;
     background-repeat: no-repeat;
     background-position: 5px;
     background-size: contain;
-    mix-blend-mode: luminosity;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(100%);
     &:hover {
-      mix-blend-mode: normal;
+      -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+   filter: grayscale(0%);
     }
   }
   .hex-wrap::after {

@@ -360,6 +360,17 @@ footer {
   .footer-left {
     text-align: left;
   }
+  .extra-info {
+      background: $black;
+      font-size: 10px;
+      display: inline-block;
+      width: 100%;
+      text-align: right;
+    img {
+      height:30px;
+      vertical-align: middle;
+    }
+  }
   .contact {
 
     background: $black;
