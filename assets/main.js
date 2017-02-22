@@ -11,8 +11,15 @@ window.addEventListener('scroll', function(){
 });
 
 //show modal
-function openBox() {
-  document.getElementsByClassName('modal-box').classList.toggle("is-shown");
+
+function openBox(e) {
+  var el = e.target.href;
+
+  //document.getElementById(el).classList.add("is-shown");
+  //document.documentElement.style.overflow = "hidden";
+}
+function closeBox() {
+  document.getElementById('box').classList.remove("is-shown");
   //document.documentElement.style.overflow = "hidden";
 }
 
@@ -54,8 +61,9 @@ function getCookie(target){
 window.onload = function() {
 
     document.getElementById('open-menu').addEventListener( 'click' , openMenu );
-    document.getElementById('close-menu').addEventListener( 'click' , closeMenu );
-    document.getElementById('show-box').addEventListener( 'click' , openBox );
+    document.getElementById('close-menu').addEventListener( 'click', closeMenu );
+    document.querySelectorAll('show-box').addEventListener( 'click' , openBox, false );
+    document.getElementsByClassName('close-box').addEventListener( 'click' , closeBox );
 
     document.getElementById('closeCookies').addEventListener( 'click' , closeCookies );
 
