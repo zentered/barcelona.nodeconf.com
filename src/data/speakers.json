@@ -31,6 +31,14 @@
 	"talk": "knock-knock-who-there-file-compression-talk_FINAL_2.tar.trz.bz2.gz",
 	"abstract": "Fade in. An opened terminal window. iTerm2 is the flavour. Dracula, the theme. You split the panes in two. You are at it again: a stash of audio buffers and that dream of manipulating a lossless file. With node as your language of choice you embark on the night. You manipulate, you transform, you have your byte order sorted, on their own accord your fingers start to type gzip -f yourFavPhilCollinsSong.wav. All of a sudden, a whisper:\n\nBut what if.\n\nwe stream.\n\nfile compression.\n\non the fly.\n\nFade to black.\n\nIn this talk we will walk through file compression algorithms in node as well compression standards. We will cover working with streams, audio buffers, and typed arrays to get us to compress and decompress files, and yourFavPhilCollinsSong.wav."
 }, {
+	"name": "Jan Lenhardt",
+	"twitter": "janl",
+	"github": "janl",
+	"portrait": "jan.jpeg",
+	"bio": "Makes @couchdb @hoodiehq @jsconfeu @greenkeeperio & #offlinefirst",
+	"talk": "Kill All Humans",
+	"abstract": "Machines are made for automating tasks that humans are bad at. Yet, Node developers still do many tasks by hand that could be automated away. Let me introduce you to an automation workflow that makes your development team fly."
+}, {
 	"name": "Logan McDonald",
 	"twitter": "loganmeetsworld",
 	"github": "loganmeetsworld",
