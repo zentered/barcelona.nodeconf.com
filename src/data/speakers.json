@@ -23,6 +23,14 @@
 	"talk": "Let’s play with HTTP/2",
 	"abstract": "This talk aims to explain how HTTP/2 works: understand the new features that the protocol has in comparison with HTTP/1.x, and what developers will need to take into consideration when implementing it. We’re going to learn by doing it, and I’ll demonstrate how to debug a TLS connection and show some examples on how to implement a NodeJS server."
 }, {
+	"name": "Eva Sánchez Guerrero",
+	"twitter": "lavigi",
+	"github": "",
+	"portrait": "eva.jpeg",
+	"bio": "Voice services enthusiast. Officially, Healthcare Innovation Business Consultant @ The Linde Group.",
+	"talk": "Creating conversational bots with Amazon Lex",
+	"abstract": ""
+}, {
 	"name": "Irina Shestak",
 	"twitter": "_lrlna",
 	"github": "lrlna",
