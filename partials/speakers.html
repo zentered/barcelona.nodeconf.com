@@ -9,17 +9,16 @@
         <div class="hex-wrap">
           <img class="img" src="/assets/img/speakers/{{portrait}}" alt="">
         </div>
-
-        <a href="https://twitter.com/{{twitter}}"><h3 class="big-fontsize"> {{name}} </h3></a>
-        <p class="bio">{{bio}}</p>
-        <a href="https://twitter.com/{{twitter}}"> <span class="fa fa-twitter"></span> </a>
-        <a href="https://github.com/{{github}}"> <span class="fa fa-github"></span> </a>
-        <h4 href="talk" href="talk"><a href="#{{github}}" class="show-box"> {{talk}} </a> </h4>
+        <a target="_blank" href="https://twitter.com/{{twitter}}"> <span class="fa fa-twitter"></span></a>
+        <a target="_blank" href="https://github.com/{{github}}"> <span class="fa fa-github"></span></a>
+        <h3 class="big-fontsize"> {{name}} </h3>
+        <p class="bio">{{bio}}</br></p>
+        <a target="_blank"><h5 id="{{github}}" class="show-box">{{talk}}</h5></a>
       </div>
-      <div class="modal-box modal" id="{{github}}">
-        <span class="fa fa-times pull-right close-box" ></span>
+      <div class="modal-box modal" id="{{github}}X">
+        <span class="fa fa-times pull-right close-box" id="close-box"></span>
         <div class ="col-md-12">
-          <h4>{{talk}}</h4>
+          <h3 class="talk-title">{{talk}}</h3>
           <p>{{abstract}}</p>
         </div>
       </div>

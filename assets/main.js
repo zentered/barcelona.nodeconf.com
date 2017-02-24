@@ -12,17 +12,24 @@ window.addEventListener('scroll', function(){
 
 //show modal
 
-function openBox(e) {
-  var el = e.target.href;
 
-  //document.getElementById(el).classList.add("is-shown");
-  //document.documentElement.style.overflow = "hidden";
-}
-function closeBox() {
-  document.getElementById('box').classList.remove("is-shown");
-  //document.documentElement.style.overflow = "hidden";
-}
+var showbox = document.getElementsByClassName('show-box');
 
+var openBox = function(e) {
+    var attribute = e.target.id;
+    document.getElementById(attribute + 'X').classList.add("is-shown");
+    document.documentElement.style.overflow = "hidden";
+
+};
+var closebox = document.getElementsByClassName('close-box');
+
+function closeBox(e) {
+  var modal = event.target.parentNode;
+  var modalId = modal.id;
+  document.getElementById(modalId).classList.remove("is-shown");
+  document.documentElement.style.overflow = "auto";
+  
+}
 
 //open and close mobile menu
 function openMenu() {
@@ -62,8 +69,14 @@ window.onload = function() {
 
     document.getElementById('open-menu').addEventListener( 'click' , openMenu );
     document.getElementById('close-menu').addEventListener( 'click', closeMenu );
-    document.querySelectorAll('show-box').addEventListener( 'click' , openBox, false );
-    document.getElementsByClassName('close-box').addEventListener( 'click' , closeBox );
+
+    for (var i = 0; i < showbox.length; i++) {
+        showbox[i].addEventListener('click', openBox, false);
+    }
+    for (var i = 0; i < closebox.length; i++) {
+        closebox[i].addEventListener('click', closeBox, false);
+    }
+    document.getElementById('close-box').addEventListener( 'click' , closeBox );
 
     document.getElementById('closeCookies').addEventListener( 'click' , closeCookies );
 
