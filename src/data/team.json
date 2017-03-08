@@ -1,15 +1,5 @@
 [
   {
-    "name":"Andrea",
-    "link": "https://twitter.com/dreamorosi",
-    "portrait":"andrea.jpg"
-  },
-  {
-    "name": "Cristina",
-    "link": "https://twitter.com/CristinaBosom",
-    "portrait": "cristina.jpeg"
-  },
-  {
     "name":"Fernando",
     "link":"https://github.com/fmmrtns",
     "portrait":"fernando.jpg"
@@ -25,9 +15,9 @@
     "portrait":"helenavicart.jpg"
   },
   {
-    "name": "Miquel",
-    "link": "https://twitter.com/darthmikesound",
-    "portrait": "miki.jpg"
+    "name":"Jesus",
+    "link": "https://twitter.com/jseijasdev",
+    "portrait":"jseijas.jpg"
   },
   {
     "name": "Núria",
@@ -35,18 +25,13 @@
     "portrait": "nuria.jpg"
   },
   {
-    "name": "Sergio",
-    "link": "https://twitter.com/_sgimeno",
-    "portrait": "sgimeno.jpg"
-  },
-  {
     "name":"Patrick",
     "link": "https://twitter.com/PatrickHeneise",
     "portrait":"patrickheneise.jpg"
   },
   {
-    "name":"Jesus",
-    "link": "https://twitter.com/jseijasdev",
-    "portrait":"jseijas.jpg"
+    "name": "Sergio",
+    "link": "https://twitter.com/_sgimeno",
+    "portrait": "sgimeno.jpg"
   }
 ]
