@@ -47,6 +47,14 @@
 	"talk": "Kill All Humans",
 	"abstract": "Machines are made for automating tasks that humans are bad at. Yet, Node developers still do many tasks by hand that could be automated away. Let me introduce you to an automation workflow that makes your development team fly."
 }, {
+	"name": "James Snell",
+	"twitter": "jasnell",
+	"github": "jasnell",
+	"portrait": "james.jpeg",
+	"bio": "Node.js TSC Member",
+	"talk": "The Node.js Process, Making decisions that impact a massive ecosystem",
+	"abstract": "to be announced soon"
+},{
 	"name": "Logan McDonald",
 	"twitter": "loganmeetsworld",
 	"github": "loganmeetsworld",
