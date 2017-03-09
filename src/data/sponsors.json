@@ -1,9 +1,20 @@
 {
   "combo": [],
-  "async": [{
+  "async": [
+    {
       "title": "Kickstarter",
       "logo": "kickstarter-logo-dark.png",
       "url": "https://www.kickstarter.com/"
+    },
+    {
+      "title": "The Neighbourhoodie Software GmbH",
+      "logo": "neighbourhoodie.svg",
+      "url": "http://neighbourhood.ie"
+    },
+    {
+      "title": "Opbeat",
+      "logo": "opbeat.svg",
+      "url": "https://opbeat.com/"
     },
     {
       "title": "YLD",
