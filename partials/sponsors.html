@@ -7,12 +7,19 @@
     </div>
     <div class="row center-xs">
       <div class="col-xs-12">
-        <h3>Synchronous</h3>
+        <h3>NodeConf & Orchestrate Sponsor</h3>
       </div>
+      {{#sponsors.combo}}
+        <div>
+          <a target="_blank" href="{{url}}">
+            <img class="col-xs-8 offset-2" src="/assets/img/sponsors/{{logo}}" alt="{{title}}">
+          </a>
+        </div>
+      {{/sponsors.combo}}
+    </div>
+    <div class="row center-xs">
       <div class="col-xs-12">
-        <p><span>We're still looking for more amazing companies willing to support this event.</span></p>
-        <a href="/sponsors.html" target="_blank" class="button sponsors">BECOME A SPONSOR</a>
-
+        <h3>Synchronous Sponsors</h3>
       </div>
       {{#each sponsors.sync}}
         <div class="col-md-3 col-sm-3 col-xs-3 text-center">
@@ -24,7 +31,7 @@
     </div>
     <div class="row center-xs">
       <div class="col-xs-12">
-        <h3>Asynchronous</h3>
+        <h3>Asynchronous Sponsors</h3>
       </div>
       {{#each sponsors.async}}
         <div class="col-md-3 col-sm-3 col-xs-3 text-center">

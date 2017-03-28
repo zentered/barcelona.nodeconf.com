@@ -1,5 +1,11 @@
 {
-  "combo": [],
+  "combo": 
+    {
+      "title": "Google Cloud Platform",
+      "logo": "gcp.svg",
+      "url": "https://cloud.google.com"
+    }
+  ,
   "async": [
     {
       "title": "Kickstarter",
@@ -22,6 +28,17 @@
       "url": "https://www.yld.io"
     }
   ],
-  "sync": [],
+  "sync": [
+    {
+      "title": "letgo",
+      "logo": "letgo.svg",
+      "url": "https://es.letgo.com/es"
+    },
+    {
+      "title": "Sopra Steria",
+      "logo": "soprasteria.jpeg",
+      "url": "http://www.soprasteria.es"
+    }
+  ],
   "startup": []
 }
