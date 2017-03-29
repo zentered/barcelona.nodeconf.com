@@ -44,6 +44,12 @@ section#sponsors {
       height: auto;
     }
   }
+  .img-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
   .row {
     margin-bottom:2em;
   }
