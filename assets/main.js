@@ -24,11 +24,12 @@ var openBox = function(e) {
 var closebox = document.getElementsByClassName('close-box');
 
 function closeBox(e) {
-  var modal = event.target.parentNode;
+  if( !e ) e = window.event;
+  var modal = e.target.parentNode;
   var modalId = modal.id;
   document.getElementById(modalId).classList.remove("is-shown");
   document.documentElement.style.overflow = "auto";
-  
+
 }
 
 //open and close mobile menu
