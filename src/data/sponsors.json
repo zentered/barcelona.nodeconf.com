@@ -1,5 +1,5 @@
 {
-  "combo": 
+  "combo":
     {
       "title": "Google Cloud Platform",
       "logo": "gcp.svg",
@@ -7,6 +7,11 @@
     }
   ,
   "async": [
+    {
+      "title": "Altran",
+      "logo": "altran.png",
+      "url": "https://altran.com"
+    },
     {
       "title": "Kickstarter",
       "logo": "kickstarter-logo-dark.png",
