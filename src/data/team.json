@@ -10,6 +10,11 @@
     "portrait":"xicombd.jpg"
   },
   {
+    "name":"George",
+    "link": "https://github.com/stagas",
+    "portrait":"george.jpg"
+  },
+  {
     "name":"Helena",
     "link": "https://twitter.com/helenavicart",
     "portrait":"helenavicart.jpg"
