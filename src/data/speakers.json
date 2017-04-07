@@ -76,8 +76,8 @@
 	"github": "mylesborins",
 	"portrait": "myles.jpeg",
 	"bio": "Artist, Musician, Developer, and Inventor. @nodejs CTC",
-	"talk": "Node.js Releases, how do they work?",
-	"abstract": "Node.js is growing up, and with that comes the responsibility of proper legacy support. As of Node.js Argon (v4.2.0) there is an official Long Term Support release cycle that lasts for 30 months!\n\nHow does a project moving at the pace of node maintain multiple release lines? How does a commit get backported? How is a release actually made?\nYou will learn all this and more on this weeks episode of \"Node.js Releases, how do they work?\".\nI work as a full time Node.js contributor for IBM. Currently I am one of the individuals in the trenches back porting commits. If you are using an LTS version of node, there is a decent likely hood that I released it.\n\nRelease management is a very interesting art, and I would love the opportunity to pull the curtains back a bit on the process of how code lands into a project like node, and the kind of edge cases created when wrangling such a repo."
+	"talk": "Canary in the gold mine - smoke testing",
+	"abstract": "to be announced soon"
 }, {
 	"name": "Thomas Watson",
 	"twitter": "wa7son",
